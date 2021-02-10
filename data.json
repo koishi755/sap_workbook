@@ -98,5 +98,52 @@
         {"label":"D", "text":"D. 再配布（Redistribution）", "answer":"incorrect"},
         {"label":"E", "text":"E. グローバル（Global）", "answer":"correct"}
     ]
+  },
+  "11":{
+    "quiz":"トランザクションSPAM(Support Package Manager)を使用してABAPサポートパッケージを適用したいと考えています。何を考慮する必要がありますか？この質問の正解は2つあります。",
+    "option":[
+        {"label":"A", "text":"A. ABAPソフトウェアコンポーネントごとに個別のサポートパッケージが存在します。", "answer":"correct"},
+        {"label":"B", "text":"B. ABAPソフトウェアコンポーネントごとに利用可能な最新のサポートパッケージのみを適用すれば十分です。", "answer":"incorrect"},
+        {"label":"C", "text":"C. サポートパッケージを適用する前に、SPAM/SAINTアップデートを適用する必要があるかもしれません。", "answer":"correct"},
+        {"label":"D", "text":"D. 各クライアントに個別にサポートパッケージを適用する必要があります。", "answer":"incorrect"},
+        {"label":"E", "text":"E. SAP_BASIS Support Packages の適用中は、カーネルの更新によりシステムの再起動が必要です。", "answer":"incorrect"}
+    ]
+  },
+  "12":{
+    "quiz":"CUAにおける必要なRFC接続に関する次の記述のうち、正しいものはどれか。正しい答えを選んでください。",
+    "option":[
+        {"label":"A", "text":"A. RFC接続は，完全に大文字で指定され，アドレス指定された論理システムの名前と同一でなければならない。", "answer":"correct"},
+        {"label":"B", "text":"B. RFC接続のユーザはダイアログユーザでなければならない。", "answer":"incorrect"},
+        {"label":"C", "text":"C. 子システムからそれ自身へのRFC接続が必要です。", "answer":"incorrect"},
+        {"label":"D", "text":"D. 中央システムから「それ自身」へのRFC接続が必要です。", "answer":"correct"},
+        {"label":"E", "text":"E. 通信ユーザーのためのある特定の役割は、CUA セットアップの間だけ要求され、その後、関連するユーザーマスターレコードから削除することができます。", "answer":"correct"}
+    ]
+  },
+  "13":{
+    "quiz":"AS ABAPをベースにしたSAPシステムで出力デバイスを設定する際に考えられる割り当ては次のうちどれか。 この質問には2つの正解があります。",
+    "option":[
+        {"label":"A", "text":"A. 出力装置は、特定のスプール作業工程に割り当てられている必要があります。", "answer":"incorrect"},
+        {"label":"B", "text":"B. 出力デバイスは、物理的なスプールサーバに直接割り当てることができます。", "answer":"correct"},
+        {"label":"C", "text":"C. 出力デバイスは、論理スプールサーバに直接割り当てることができます。", "answer":"correct"},
+        {"label":"D", "text":"D. 出力デバイスをスプールサーバに割り当てる必要はありません。", "answer":"incorrect"}
+    ]
+  },
+  "14":{
+    "quiz":"SAP NetWeaver ASのアーキテクチャに関する次の記述のうち、正しいものはどれか。この質問の正解は2つあります。",
+    "option":[
+        {"label":"A", "text":"A. AS Javaの中央サービスインスタンスは、AS Javaのインストールにのみ必要で、AS ABAP+Java（デュアルスタック）のインストールには必要ありません。", "answer":"incorrect"},
+        {"label":"B", "text":"B. SAP NetWeaver ベースの SAP システムでは、AS ABAP、AS Java、または AS ABAP+Java (Dual Stack) のいずれかを使用します。", "answer":"correct"},
+        {"label":"C", "text":"C. すべてのSAP NetWeaverベースのSAPシステムは、AS ABAP+Java（デュアルスタック）システムとしてインストールできます。", "answer":"incorrect"},
+        {"label":"D", "text":"D. AS ABAP+Java (Dual Stack)では、AS JavaとAS ABAPは異なるデータベーススキーマを使用します。", "answer":"correct"}
+    ]
+  },
+  "15":{
+    "quiz":"SAPDOCCD.ini を使用して、オンラインドキュメントへのアクセス方法を変更するには、いくつかのオプションがあります。次のステートメントのうち、どれが正しいですか？この質問には 3 つの正解があります。",
+    "option":[
+        {"label":"A", "text":"A. ヘルプを呼び出しているユーザーのユーザーID(SAPシステムでは)に応じて、オンラインドキュメントへのアクセスパスを変更できます。", "answer":"correct"},
+        {"label":"B", "text":"B. ヘルプを呼び出しているユーザーのログオン言語 (SAP システムでは) に応じて、オンラインドキュメントへのアクセスパスを変更できます。", "answer":"incorrect"},
+        {"label":"C", "text":"C. ヘルプの呼び出し元の SAP システムのリリースに応じて、オンラインドキュメントへのアクセスパスを変更できます。", "answer":"incorrect"},
+        {"label":"D", "text":"D. ヘルプを呼び出す元の SAP システムの SID (システム ID) に応じて、オンラインドキュメントへのアクセスパスを変更できます。", "answer":"correct"}
+    ]
   }
 }
