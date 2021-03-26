@@ -427,6 +427,63 @@
     ]
   },
   "46":{
+    "quiz":"お客様は、複数の子システムに接続するAS ABAPで中央ユーザー管理（CUA）を設定しています。 1つの子システムのユーザマスタレコードの属性 \"携帯電話番号\"の変更は、他の関連する子システムに転送する必要があります。 この要件を満たすために、トランザクションSCUM（中央ユーザー管理）を介したフィールド配信のパラメータの属性「携帯電話番号」のどの設定を使用しますか？",
+    "option":[
+        {"label":"A", "text":"A. グローバル", "answer":"incorrect"},
+        {"label":"B", "text":"B. 再配布", "answer":"correct"},
+        {"label":"C", "text":"C. どこでも", "answer":"incorrect"},
+        {"label":"D", "text":"D. ローカル", "answer":"incorrect"}
+    ]
+  },
+  "47":{
+    "quiz":"SAPトランザクションの非同期更新要求は、タイプUpdateV1またはUpdateV2のワークプロセスにどのように割り当てられますか？この質問には2つの正解があります。",
+    "option":[
+        {"label":"A", "text":"A. V2更新ワークプロセスが構成されていない場合、V1ワークプロセスはすべての更新要求を処理します。", "answer":"correct"},
+        {"label":"B", "text":"B. V2更新プロセスが構成されている場合、V2更新要求は、使用可能なV2更新ワークプロセスでのみ処理されます。", "answer":"correct"},
+        {"label":"C", "text":"C. V1およびV2更新要求の処理優先度は、パラメーターrdisp /wp_no_vbおよびrdisp/wp_no_vb2の対応する値によって決定されます。", "answer":"incorrect"},
+        {"label":"D", "text":"D.すべての更新要求は、ラウンドロビン方式でV1およびV2ワークプロセスに割り当てられます。", "answer":"incorrect"}
+    ]
+  },
+  "48":{
+    "quiz":"AS ABAP + Java 7.0x（デュアルスタック）に基づくSAPシステムのセントラルインスタンスの起動中に、さまざまなプロセスが開始されます。 デフォルトでABAPディスパッチャによって開始されるプロセスはどれですか。この質問には3つの正解があります。",
+    "option":[
+        {"label":"A", "text":"A. AS ABAPメッセージサーバーとして", "answer":"incorrect"},
+        {"label":"B", "text":"B. AS ABAPワークプロセスとして", "answer":"correct"},
+        {"label":"C", "text":"C. AS Javaメッセージサーバー", "answer":"incorrect"},
+        {"label":"D", "text":"D. パラメーターrdisp / start_icmanが「true」に設定されている場合のInternetCommunication Manager（ICM）", "answer":"correct"},
+        {"label":"E", "text":"E. JControl", "answer":"correct"}
+    ]
+  },
+  "49":{
+    "quiz":"AS ABAPベースのSAPシステムでのデータの更新に関して正しい説明はどれですか？この質問には2つの正解があります。",
+    "option":[
+        {"label":"A", "text":"A. テーブルの内容を更新できるのは更新ワークプロセスのみです。", "answer":"incorrect"},
+        {"label":"B", "text":"B. ダイアログおよびバックグラウンドプロセスは、テーブルの内容を更新できます。", "answer":"correct"},
+        {"label":"C", "text":"C.「更新（UPD）」および「更新2（UP2）」ワークプロセスは、テーブルの内容を更新できます。", "answer":"correct"},
+        {"label":"D", "text":"D. テーブルの内容は「非同期更新」を介して更新する必要があります", "answer":"incorrect"}
+    ]
+  },
+  "50":{
+    "quiz":"",
+    "option":[
+        {"label":"A", "text":"", "answer":"incorrect"},
+        {"label":"B", "text":"", "answer":"incorrect"},
+        {"label":"C", "text":"", "answer":"incorrect"},
+        {"label":"D", "text":"", "answer":"incorrect"},
+        {"label":"E", "text":"", "answer":"incorrect"}
+    ]
+  },
+  "51":{
+    "quiz":"",
+    "option":[
+        {"label":"A", "text":"", "answer":"incorrect"},
+        {"label":"B", "text":"", "answer":"incorrect"},
+        {"label":"C", "text":"", "answer":"incorrect"},
+        {"label":"D", "text":"", "answer":"incorrect"},
+        {"label":"E", "text":"", "answer":"incorrect"}
+    ]
+  },
+  "52":{
     "quiz":"",
     "option":[
         {"label":"A", "text":"", "answer":"incorrect"},
