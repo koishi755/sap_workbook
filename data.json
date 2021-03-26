@@ -288,6 +288,52 @@
     ]
   },
   "31":{
+    "quiz":"AS Javaのユーザー管理エンジン（UME）でサポートされているデータソースはどれですか？この質問には3つの正解があります。",
+    "option":[
+        {"label":"A", "text":"A.ASJavaのデータベース", "answer":"correct"},
+        {"label":"B", "text":"B.UDDIプロバイダー", "answer":"incorrect"},
+        {"label":"C", "text":"C.ASABAPベースのSAPシステムのクライアント", "answer":"correct"},
+        {"label":"D", "text":"D.オペレーティングシステムレベルのファイル（セキュアストア）", "answer":"incorrect"},
+        {"label":"E", "text":"E.ディレクトリサーバー（LDAP経由）", "answer":"correct"}
+    ]
+  },
+  "32":{
+    "quiz":"ASJavaベースのSAPシステムを実行しています。 デプロイされたすべてのASJavaソフトウェアコンポーネントの現在のサポートパッケージレベルをどのように判断できますか？",
+    "option":[
+        {"label":"A", "text":"A.セントラルサービスインスタンスの作業ディレクトリにある「java_vers」ファイルを分析します。", "answer":"incorrect"},
+        {"label":"B", "text":"B.オペレーティングシステムレベルで「jcmon-version」コマンドを使用します。", "answer":"incorrect"},
+        {"label":"C", "text":"C.オペレーティングシステムレベルで「java-version」コマンドを使用します。", "answer":"incorrect"},
+        {"label":"D", "text":"D.ASJavaの第一画面にある「システム情報」リンクを使用します。", "answer":"correct"}
+    ]
+  },
+  "33":{
+    "quiz":"別の中央監視システムを使用している場合、AS ABAP + Javaシステムの監視に関する次の説明のうち正しいものはどれですか？正解をお選びください",
+    "option":[
+        {"label":"A", "text":"A. AS ABAP + JavaベースのSAPシステムを監視するには、エージェントSAPCCMSRを使用してASJavaを監視します。", "answer":"correct"},
+        {"label":"B", "text":"B.中央監視システムは、監視対象SAPシステムの上位SAPリリースである必要があります。", "answer":"incorrect"},
+        {"label":"C", "text":"C. AS ABAP + JavaベースのSAPシステムの集中監視は、個別のAS ABAP + JavaベースのSAPシステムを使用してのみ実行できます。", "answer":"incorrect"},
+        {"label":"D", "text":"D.中央監視システムのシステムIDは「CEN」である必要があります。", "answer":"incorrect"}
+    ]
+  },
+  "34":{
+    "quiz":"サーバーの全体管理の削除に関する次の説明のうち、正しいものはどれですか。この質問には2つの正解があります。",
+    "option":[
+        {"label":"A", "text":"A.CUAが完全に構成され、ユーザーがCUAマスタークライアントに転送されると、CUAを完全に削除することはできなくなります。", "answer":"incorrect"},
+        {"label":"B", "text":"B.子システムをCUAから（永続的または一時的に）削除できます。", "answer":"correct"},
+        {"label":"C", "text":"C.CUAを完全に削除できます。", "answer":"correct"},
+        {"label":"D", "text":"D. CUAから子システムを削除すると、この子クライアントに存在するすべてのユーザーが自動的に失われます。", "answer":"incorrect"}
+    ]
+  },
+  "35":{
+    "quiz":"AS Java7.10以降に基づくSAPシステムの新規ユーザーに権限を提供する必要があります。ユーザー管理エンジン（UME）でこれをどのように行うことができますか？この質問には2つの正解があります。",
+    "option":[
+        {"label":"A", "text":"A.ロールにいくつかのアクションを追加してから、このロールをユーザーに割り当てます。", "answer":"correct"},
+        {"label":"B", "text":"B.ユーザーに直接いくつかのアクションを追加します。", "answer":"incorrect"},
+        {"label":"C", "text":"C.いくつかのアクションをグループに追加してから、このグループをユーザーに割り当てます。", "answer":"incorrect"},
+        {"label":"D", "text":"D.いくつかのアクションを役割に追加し、この役割をグループに割り当ててから、このグループをユーザーに割り当てます。", "answer":"correct"}
+    ]
+  },
+  "36":{
     "quiz":"",
     "option":[
         {"label":"A", "text":"", "answer":"incorrect"},
