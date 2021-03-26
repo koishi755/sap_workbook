@@ -334,6 +334,62 @@
     ]
   },
   "36":{
+    "quiz":"Internet Communication Manager（ICM）はどのようなリクエストを処理できますか？この質問には3つの正解があります。",
+    "option":[
+        {"label":"A", "text":"A. ICMは、統合ITSを対象とした要求を処理できます。", "answer":"correct"},
+        {"label":"B", "text":"B. ICMは、インスタンスのJavaスタックを対象とした要求を処理できます。", "answer":"correct"},
+        {"label":"C", "text":"C. ICMは、ビジネスサーバページ（BSP）を呼び出すABAPディスパッチャの要求を処理できます。", "answer":"correct"},
+        {"label":"D", "text":"D. ICMは、スタンドアロンSAPITSからの要求を処理できます。", "answer":"incorrect"}
+    ]
+  },
+  "37":{
+    "quiz":"SAPシステムタイプに応じて、どのタイプのダイアログインスタンスをSAPシステムにインストールできますか？この質問には2つの正解があります。",
+    "option":[
+        {"label":"A", "text":"A. ASABAPダイアログインスタンスとして", "answer":"correct"},
+        {"label":"B", "text":"B. セントラルサービスダイアログインスタンス", "answer":"incorrect"},
+        {"label":"C", "text":"C. ASJavaダイアログインスタンス", "answer":"correct"}
+    ]
+  },
+  "38":{
+    "quiz":"SAP NetWeaverでは、いくつかのコンポーネントにABAPとJAVAスタックが必要です。 お客様は、両方のスタックを1つのデータベースにインストールすることにしました。 スタックごとにデフォルトのスキーマユーザーが作成されます。 これらのユーザーはどのOracleデータベーステーブルに物理的に格納されており、どのように名前が付けられていますか？ SAPはLNXであり、インスタンス番号は03です。この質問には2つの正解があります",
+    "option":[
+        {"label":"A", "text":"A. Table. dba_users; JAVA schema owner: SAP<SCHEMA-ID>DB", "answer":"correct"},
+        {"label":"B", "text":"B. Table. dba_user; Java user: ORALNXDB", "answer":"incorrect"},
+        {"label":"C", "text":"C. Table. users; ABAP and JAVA Schema owner: SAPLNX", "answer":"incorrect"},
+        {"label":"D", "text":"D. Table. dba_users; ABAP schema owner: SAP<SCHEMA-ID>", "answer":"correct"},
+        {"label":"E", "text":"E. Table. dba_user; ABAP schema owner: ORALNX", "answer":"incorrect"}
+    ]
+  },
+  "39":{
+    "quiz":"サーバーの全体管理に関する次の説明のうち、正しいものはどれですか。正しい答えを複数選択してください。",
+    "option":[
+        {"label":"A", "text":"A. CUAは、AS ABAP4.0B以降で実装できます。", "answer":"incorrect"},
+        {"label":"B", "text":"B. SAPECCシステムのみをCUAに接続できます。 SAPCRMシステムに接続できません。", "answer":"incorrect"},
+        {"label":"C", "text":"C. CUAはALEセットアップを使用します。", "answer":"correct"},
+        {"label":"D", "text":"D. CUAによってリンクされたクライアントは論理システムと呼ばれます。", "answer":"correct"},
+        {"label":"E", "text":"E. CUAにリンクされているクライアントは、「セントラルシステム」および「子システム」と呼ばれます。", "answer":"correct"}
+    ]
+  },
+  "40":{
+    "quiz":"移送管理システムを使用して移送依頼をインポートします。インポートが終了すると、戻りコード8が発生したにもかかわらず、移送依頼がインポートキューから消えます。最も可能性の高い理由は何ですか。",
+    "option":[
+        {"label":"A", "text":"A. トランスポート戦略は「キュー制御の単一トランスポート」に設定されています。", "answer":"incorrect"},
+        {"label":"B", "text":"B. 品質保証は「確認後の納品」に設定されています。", "answer":"incorrect"},
+        {"label":"C", "text":"C. 品質保証が無効になっています。", "answer":"incorrect"},
+        {"label":"D", "text":"D. トランスポート戦略は「キュー制御の大量トランスポート」に設定されています。", "answer":"correct"}
+    ]
+  },
+  "41":{
+    "quiz":"",
+    "option":[
+        {"label":"A", "text":"", "answer":"incorrect"},
+        {"label":"B", "text":"", "answer":"incorrect"},
+        {"label":"C", "text":"", "answer":"incorrect"},
+        {"label":"D", "text":"", "answer":"incorrect"},
+        {"label":"E", "text":"", "answer":"incorrect"}
+    ]
+  },
+  "42":{
     "quiz":"",
     "option":[
         {"label":"A", "text":"", "answer":"incorrect"},
