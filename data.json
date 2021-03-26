@@ -380,16 +380,53 @@
     ]
   },
   "41":{
-    "quiz":"",
+    "quiz":"SAP ECC 6.0のインストールを行うために必要な準備手順は何ですか？(複数選択)",
     "option":[
-        {"label":"A", "text":"", "answer":"incorrect"},
-        {"label":"B", "text":"", "answer":"incorrect"},
-        {"label":"C", "text":"", "answer":"incorrect"},
-        {"label":"D", "text":"", "answer":"incorrect"},
-        {"label":"E", "text":"", "answer":"incorrect"}
+        {"label":"A", "text":"A. 前提条件を確認しますか？", "answer":"correct"},
+        {"label":"B", "text":"B. 適切なJDKをインストールしますか？", "answer":"correct"},
+        {"label":"C", "text":"C. SAPinstをインストールして構成しますか？", "answer":"incorrect"},
+        {"label":"D", "text":"D. ホストの名前をSAP <sid> <インスタンス番号>に変更しますか？", "answer":"incorrect"}
     ]
   },
   "42":{
+    "quiz":"お客様は、ITインフラストラクチャライブラリ（ITIL）標準に基づいた変更管理プロセスを実装したいと考えています。実装に使用することをお勧めするのは次のうちどれですか？",
+    "option":[
+        {"label":"A", "text":"A. ASABAPに基づくSAPシステムの移送ワークフロープロセスを実装します。", "answer":"incorrect"},
+        {"label":"B", "text":"B. SAP SolutionManagerで変更要求管理を実装します。", "answer":"correct"},
+        {"label":"C", "text":"C. SAP SolutionManagerにメンテナンスオプティマイザを実装します。", "answer":"incorrect"},
+        {"label":"D", "text":"D. ASABAPおよびASJavaに基づくSAPシステムの拡張変更および移送システムを実装します。", "answer":"incorrect"}
+    ]
+  },
+  "43":{
+    "quiz":"システムセキュリティオフィサーロール（SSO_role）を使用してSAP Adaptive Server Enterprise（SAP ASE）にログインするためのパスワードを紛失しました。 パスワードをリセットするために使用できるのは次のうちどれですか？",
+    "option":[
+        {"label":"A", "text":"A. sybctrl", "answer":"incorrect"},
+        {"label":"B", "text":"B. インタラクティブSQL（dbisql）", "answer":"incorrect"},
+        {"label":"C", "text":"C. SAPコントロールセンター", "answer":"incorrect"},
+        {"label":"D", "text":"D. データサーバーの実行可能ファイル", "answer":"correct"}
+    ]
+  },
+  "44":{
+    "quiz":"ASABAPベースのSAPシステムを実行しています。 すべてのABAPソフトウェアコンポーネントの現在のサポートパッケージレベルをどのように判断できますか？（この質問には2つの正解があります）",
+    "option":[
+        {"label":"A", "text":"A. [システム]-> [ステータス]-> [コンポーネント情報]を選択します。", "answer":"correct"},
+        {"label":"B", "text":"B. トランザクションSPAM（サポートパッケージマネージャー）を使用します。", "answer":"correct"},
+        {"label":"C", "text":"C. レポート「RSPFPAR」を実行します", "answer":"incorrect"},
+        {"label":"D", "text":"D .WebブラウザでICFパス \"/sap/bc/icf/info\"を起動します", "answer":"incorrect"},
+        {"label":"E", "text":"E.オペレーティングシステムに応じて、「disp + work-v」または「dw-v」コマンドを使用します", "answer":"incorrect"}
+    ]
+  },
+  "45":{
+    "quiz":"SAP Adaptive Server Enterprise（SAP ASE）で複数のデータキャッシュを使用するのはなぜですか？(３つ選択)",
+    "option":[
+        {"label":"A", "text":"A. 現在のキャッシュ使用率に基づいてキャッシュを選択できるようにするため", "answer":"incorrect"},
+        {"label":"B", "text":"B. トランザクション処理を高速化するため", "answer":"correct"},
+        {"label":"C", "text":"C. パーティションテーブルの読み取りを高速化する", "answer":"incorrect"},
+        {"label":"D", "text":"D. 単一のキャッシュでのデータキャッシュのスピンロックの競合を減らすため", "answer":"correct"},
+        {"label":"E", "text":"E. テキスト列のあるテーブルの読み取りを高速化する", "answer":"correct"}
+    ]
+  },
+  "46":{
     "quiz":"",
     "option":[
         {"label":"A", "text":"", "answer":"incorrect"},
