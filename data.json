@@ -194,6 +194,103 @@
     ]
   },
   "21":{
+    "quiz":"ASABAPベースのSAPシステムのシステムランドスケープを実行しています。 トランスポートドメインの特徴は何ですか？",
+    "option":[
+        {"label":"A", "text":"A.すべてのシステムはバックアップドメインコントローラーとして機能します。", "answer":"incorrect"},
+        {"label":"B", "text":"B.すべてのシステムに共通のトランスポートディレクトリがあります。", "answer":"incorrect"},
+        {"label":"C", "text":"C.すべてのシステムは、トランスポートルートを介してトランスポートドメインコントローラーに接続されています", "answer":"incorrect"},
+        {"label":"D", "text":"D.すべてのシステムに共通のトランスポートドメインコントローラーがあります。", "answer":"correct"}
+    ]
+  },
+  "22":{
+    "quiz":"トランザクションRZ10に関する次の説明のうち正しいものはどれですか（2つ選択してください）",
+    "option":[
+        {"label":"A", "text":"A.RZ10の保存ボタンを使用してプロファイルをアクティブにすると、すぐにオペレーティングシステムレベルに書き込まれます。", "answer":"correct"},
+        {"label":"B", "text":"B.トランザクションRZ10を使用してデフォルトプロファイルを更新することはできません。", "answer":"incorrect"},
+        {"label":"C", "text":"C.維持されたパラメータは、プロファイルがRZ10でアクティブ化された直後に有効になります。", "answer":"incorrect"},
+        {"label":"D", "text":"D.オペレーティングシステムのプロファイルファイルをデータベースのプロファイルと比較できます。", "answer":"correct"}
+    ]
+  },
+  "23":{
+    "quiz":"ABAPサポートパッケージの実装に関する次の説明のうち正しいものはどれですか？この質問に対する正解は2つあります。",
+    "option":[
+        {"label":"A", "text":"A.サポートパッケージは任意の順序で実装できます。", "answer":"incorrect"},
+        {"label":"B", "text":"B. SAP_BASISやSAP_APPLなどの各ABAPソフトウェアコンポーネントには、独自のサポートパッケージがあります。", "answer":"correct"},
+        {"label":"C", "text":"C. ABAPサポートパッケージを使用すると、既存の機能にパッチを適用できます。", "answer":"correct"}
+    ]
+  },
+  "24":{
+    "quiz":"CCMS監視のプロパティバリアントはどの目的に使用できますか？この質問には3つの正解があります。",
+    "option":[
+        {"label":"A", "text":"A.クロスシステムのモニタリングを可能にするために", "answer":"incorrect"},
+        {"label":"B", "text":"B.しきい値のセットを1つのSAPシステムから別のSAPシステムに移送する", "answer":"correct"},
+        {"label":"C", "text":"C.ユーザーが異なるしきい値のセットを同時に使用できるようにするため", "answer":"incorrect"},
+        {"label":"D", "text":"D.操作モードの切り替えによってトリガーされるしきい値の異なるセットを切り替えるには", "answer":"correct"},
+        {"label":"E", "text":"E.しきい値のコンテナとして", "answer":"correct"}
+    ]
+  },
+  "25":{
+    "quiz":"SAP Solution Manager 7.1システムと一緒に使用できるテクノロジーコンポーネントは次のうちどれですか？正解が４つあります。",
+    "option":[
+        {"label":"A", "text":"A.スタンドアロンのSAPInternet Transaction Server（SAP ITS）", "answer":"incorrect"},
+        {"label":"B", "text":"B.統合されたSAPInternet Transaction Server（SAP ITS）", "answer":"correct"},
+        {"label":"C", "text":"C.インターネットコミュニケーションマネージャー（ICM）", "answer":"correct"},
+        {"label":"D", "text":"D.Web Dynpro ABAP", "answer":"correct"},
+        {"label":"E", "text":"E.Web Dynpro Java", "answer":"correct"}
+    ]
+  },
+  "26":{
+    "quiz":"SAPは、あらゆる規模の企業に幅広い製品を提供しています。 次のうち、SAP製品はどれですか？この質問には4つの正解があります。",
+    "option":[
+        {"label":"A", "text":"A. SAP Business All-in-One", "answer":"correct"},
+        {"label":"B", "text":"B. SAP Business One-for-All", "answer":"incorrect"},
+        {"label":"C", "text":"C. SAP Business ByEvolution", "answer":"incorrect"},
+        {"label":"D", "text":"D. SAP Business One", "answer":"correct"},
+        {"label":"E", "text":"E. SAP Business ByDesign", "answer":"correct"},
+        {"label":"F", "text":"F. SAP Business Suite", "answer":"correct"}
+    ]
+  },
+  "27":{
+    "quiz":"",
+    "option":[
+        {"label":"A", "text":"", "answer":"incorrect"},
+        {"label":"B", "text":"", "answer":"incorrect"},
+        {"label":"C", "text":"", "answer":"incorrect"},
+        {"label":"D", "text":"", "answer":"incorrect"},
+        {"label":"E", "text":"", "answer":"incorrect"}
+    ]
+  },
+  "28":{
+    "quiz":"",
+    "option":[
+        {"label":"A", "text":"", "answer":"incorrect"},
+        {"label":"B", "text":"", "answer":"incorrect"},
+        {"label":"C", "text":"", "answer":"incorrect"},
+        {"label":"D", "text":"", "answer":"incorrect"},
+        {"label":"E", "text":"", "answer":"incorrect"}
+    ]
+  },
+  "29":{
+    "quiz":"",
+    "option":[
+        {"label":"A", "text":"", "answer":"incorrect"},
+        {"label":"B", "text":"", "answer":"incorrect"},
+        {"label":"C", "text":"", "answer":"incorrect"},
+        {"label":"D", "text":"", "answer":"incorrect"},
+        {"label":"E", "text":"", "answer":"incorrect"}
+    ]
+  },
+  "30":{
+    "quiz":"",
+    "option":[
+        {"label":"A", "text":"", "answer":"incorrect"},
+        {"label":"B", "text":"", "answer":"incorrect"},
+        {"label":"C", "text":"", "answer":"incorrect"},
+        {"label":"D", "text":"", "answer":"incorrect"},
+        {"label":"E", "text":"", "answer":"incorrect"}
+    ]
+  },
+  "31":{
     "quiz":"",
     "option":[
         {"label":"A", "text":"", "answer":"incorrect"},
