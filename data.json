@@ -251,43 +251,40 @@
     ]
   },
   "27":{
-    "quiz":"",
+    "quiz":"AS ABAPに基づいてSAPシステムで出力デバイスを設定するときに可能な割り当ては次のうちどれですか？この質問には2つの正解があります。",
     "option":[
-        {"label":"A", "text":"", "answer":"incorrect"},
-        {"label":"B", "text":"", "answer":"incorrect"},
-        {"label":"C", "text":"", "answer":"incorrect"},
-        {"label":"D", "text":"", "answer":"incorrect"},
-        {"label":"E", "text":"", "answer":"incorrect"}
+        {"label":"A", "text":"A.出力デバイスを特定のスプールワークプロセスに割り当てる必要があります。", "answer":"incorrect"},
+        {"label":"B", "text":"B.出力デバイスを物理スプールサーバーに直接割り当てることができます。", "answer":"correct"},
+        {"label":"C", "text":"C.出力デバイスを論理スプールサーバに直接割り当てることができます。", "answer":"correct"},
+        {"label":"D", "text":"D.出力デバイスをスプールサーバーに割り当てる必要はありません。", "answer":"incorrect"}
     ]
   },
   "28":{
-    "quiz":"",
+    "quiz":"AS ABAPのインターネット通信フレームワーク（ICF）によって提供されるサービスに関する次の説明のうち、正しいものはどれですかこの質問には2つの正解があります。",
     "option":[
-        {"label":"A", "text":"", "answer":"incorrect"},
-        {"label":"B", "text":"", "answer":"incorrect"},
-        {"label":"C", "text":"", "answer":"incorrect"},
-        {"label":"D", "text":"", "answer":"incorrect"},
-        {"label":"E", "text":"", "answer":"incorrect"}
+        {"label":"A", "text":"A.ICFサービスはSAPによってのみ作成できます。 お客様が新しいICFサービスを作成することはできません。", "answer":"incorrect"},
+        {"label":"B", "text":"B.ビジネスサーバーページ（BSP）はICF経由でアクセスされます", "answer":"correct"},
+        {"label":"C", "text":"C. ICFサービスは、リモート関数呼び出し（RFC）に取って代わります。", "answer":"incorrect"},
+        {"label":"D", "text":"D. ICFサービスは、ASABAP内の選択された機能へのHTTPベースのアクセスを提供します。", "answer":"correct"}
     ]
   },
   "29":{
-    "quiz":"",
+    "quiz":"SAP Solution Manager 7.1システムと一緒に使用できるテクノロジーコンポーネントは次のうちどれですか？正しい答えを複数選択してください。",
     "option":[
-        {"label":"A", "text":"", "answer":"incorrect"},
-        {"label":"B", "text":"", "answer":"incorrect"},
-        {"label":"C", "text":"", "answer":"incorrect"},
-        {"label":"D", "text":"", "answer":"incorrect"},
-        {"label":"E", "text":"", "answer":"incorrect"}
+        {"label":"A", "text":"A.スタンドアロンのSAPInternet Transaction Server（SAP ITS）", "answer":"incorrect"},
+        {"label":"B", "text":"B.統合されたSAPInternet Transaction Server（SAP ITS）", "answer":"correct"},
+        {"label":"C", "text":"C.インターネットコミュニケーションマネージャー（ICM）", "answer":"correct"},
+        {"label":"D", "text":"D. Web Dynpro ABAP", "answer":"correct"},
+        {"label":"E", "text":"E. Web Dynpro Java", "answer":"correct"}
     ]
   },
   "30":{
-    "quiz":"",
+    "quiz":"システムによって指定された場所からプロファイルパラメータが読み取られる順序はどれですか？",
     "option":[
-        {"label":"A", "text":"", "answer":"incorrect"},
-        {"label":"B", "text":"", "answer":"incorrect"},
-        {"label":"C", "text":"", "answer":"incorrect"},
-        {"label":"D", "text":"", "answer":"incorrect"},
-        {"label":"E", "text":"", "answer":"incorrect"}
+        {"label":"A", "text":"A. 1.インスタンスプロファイル 2.デフォルトプロファイル 3.カーネル", "answer":"incorrect"},
+        {"label":"B", "text":"B. 1.start.ini 2.カーネル 3.デフォルトプロファイル 4.インスタンスプロファイル", "answer":"incorrect"},
+        {"label":"C", "text":"C. 1.カーネル 2.デフォルトプロファイル3 .インスタンスプロファイル", "answer":"correct"},
+        {"label":"D", "text":"D. 1.カーネル 2.start.ini 3.デフォルトプロファイル 4.インスタンスプロファイル", "answer":"incorrect"}
     ]
   },
   "31":{
