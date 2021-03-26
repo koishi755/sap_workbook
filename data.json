@@ -1,149 +1,206 @@
 {
   "1":{
-    "quiz":"データベースのパフォーマンス監視に役立つチェックは次のうちどれですか？この質問には3つの正解があります。",
+    "quiz":"AS ABAP + Javaシステムをインストールしましたが、デフォルトのUME設定は変更されていません。 次の説明のうち、正しいものはどれですか（AS ABAPシステムの1つのクライアントの場合）。この質問には2つの正解があります。",
     "option":[
-        {"label":"A", "text":"データバッファの品質をチェックする。", "answer":"correct"},
-        {"label":"B", "text":"高価なSQL文の共有カーソルキャッシュをチェックする。", "answer":"correct"},
-        {"label":"C", "text":"テーブルスペースの充填度をチェックする。", "answer":"incorrect"},
-        {"label":"D", "text":"100以上のエクステントを持つテーブルをチェックする。", "answer":"incorrect"},
-        {"label":"E", "text":"オプティマイザの統計情報が定期的に更新されているかどうかを確認します。", "answer":"correct"}
+        {"label":"A", "text":"A.ABAPロールはUMEグループとして表示されます。", "answer":"correct"},
+        {"label":"B", "text":"B. ABAPロールへのABAPユーザの割当は、UMEグループへのUMEユーザの割当として表示されます。", "answer":"correct"},
+        {"label":"C", "text":"C. ABAPユーザーのABAPグループへの割り当ては、UMEユーザーのUMEロールへの割り当てとして表示されます。", "answer":"incorrect"},
+        {"label":"D", "text":"D.ABAP許可プロファイルはUMEセキュリティロールとして表示されます。", "answer":"incorrect"}
     ]
   }
 ,
   "2":{
-    "quiz":"RDBMSに関する記述で正しいのはどれか。この問題の正解は3つあります。",
+    "quiz":"AS ABAPに基づくSAPシステムのインスタンスの起動中にデータベースに接続するプロセスは次のうちどれですか？",
     "option":[
-        {"label":"A", "text":"マルチユーザ環境で大量のデータを管理することで、多くのユーザが同時に同じデータにアクセスします。", "answer":"correct"},
-        {"label":"B", "text":"独自のユーザー認証概念を用いて、セキュリティの観点からデータへのアクセスを制御する。", "answer":"incorrect"},
-        {"label":"C", "text":"データ間の関係を維持する。", "answer":"correct"},
-        {"label":"D", "text":"システム障害が発生した場合には、既知のコンスタンシーnのポイントにデータを回復します。", "answer":"incorrect"},
-        {"label":"E", "text":"データ要求の処理のための高いパフォーマンスを実現", "answer":"correct"}
+        {"label":"A", "text":"A.有効なSAPライセンスを確認するためのメッセージサーバー", "answer":"incorrect"},
+        {"label":"B", "text":"B.リモート関数呼び出し（RFC）を介したゲートウェイプロセス", "answer":"incorrect"},
+        {"label":"C", "text":"C.JDBCを介したディスパッチャプロセス", "answer":"incorrect"},
+        {"label":"D", "text":"D.すべてのワークプロセスがデータベースに接続します", "answer":"correct"}
     ]
   }
 ,
   "3":{
-    "quiz":"AP の起動時に一般的に観察されるプロセス開始シーケンスは次のうちどれか。AS Java 7.0をベースにしたシステムを使用していますか? 指定されたシーケンスは 完全 である必要はないことに注意してください。ここでは、選択されたプロセスの時系列を考慮している。正解を選択してください。回答してください。",
+    "quiz":"ASJavaベースのSAPシステムの最大パスワード長設定を変更する必要があります。 次のツールのどれを使用できますか？この質問には2つの正解があります。",
     "option":[
-        {"label":"A", "text":"1. データベースプロセス、2.ディスパッチャ、3.エンキューサーバ", "answer":"incorrect"},
-        {"label":"B", "text":"1. エンキューサーバ、2.サーバプロセス、3.データベースプロセス", "answer":"incorrect"},
-        {"label":"C", "text":"1. データベースプロセス、2.メッセージサーバ、3.ディスパッチャ", "answer":"correct"}
+        {"label":"A", "text":"A.構成ツール", "answer":"correct"},
+        {"label":"B", "text":"B.UME管理コンソール", "answer":"correct"},
+        {"label":"C", "text":"C.SDMリモートGUI", "answer":"incorrect"},
+        {"label":"D", "text":"D.トランザクションRZ10（プロファイルの編集）", "answer":"incorrect"}
     ]
   }
 ,
   "4":{
-    "quiz":"オンラインOracleデータベースのバックアップに関する次の記述のうち、正しいのはどれですか。正しい答えを選択してください。",
+    "quiz":"OracleデータベースのComputingCenter Management System（CCMS）アラート監視ツールによって提供される情報はどれですか。この質問には2つの正解があります。",
     "option":[
-        {"label":"A", "text":"データベースが archivelog モードで実行されている必要があります。", "answer":"correct"},
-        {"label":"B", "text":"データベースは、オンライン バックアップ中にオンライン REDO ログ ファイルに書き込みません。", "answer":"incorrect"},
-        {"label":"C", "text":"オンラインデータベースバックアップはOracleではサポートされていません。", "answer":"incorrect"},
-        {"label":"D", "text":"完全なオンライン バックアップは、テーブルスペース データ ファイルとコントロール ファイルで構成されており、これらはすべてデータベースを一貫した状態に復元するために必要なものです。", "answer":"incorrect"},
-        {"label":"E", "text":"ユーザーは、バックアップが実行されている間は、データを読み取るだけで、データを入力することはできません。", "answer":"incorrect"}
+        {"label":"A", "text":"A.データベース統計", "answer":"incorrect"},
+        {"label":"B", "text":"B.データベースの状態", "answer":"correct"},
+        {"label":"C", "text":"C.データベースのパフォーマンス", "answer":"correct"},
+        {"label":"D", "text":"D.データベースセッション", "answer":"incorrect"}
     ]
   }
 ,
   "5":{
-    "quiz":"AS ABAP ベースの SAP システムの更新中に、SAP Software Update Manager (SUM) は SPAM バージョンチェックを実行します。このチェックの結果に基づいて、どのオプションが提供されますか？この質問には2つの正解があります。",
+    "quiz":"複数のインスタンスを持つASABAPに基づくSAPシステムでのロックテーブルの使用に関して正しい説明は次のうちどれですか。この質問には2つの正解があります。",
     "option":[
-        {"label":"A", "text":"輸入修正調整輸送", "answer":"incorrect"},
-        {"label":"B", "text":"エキスパートモードに切り替える", "answer":"incorrect"},
-        {"label":"C", "text":"SPAMアップデートをスキップ", "answer":"correct"},
-        {"label":"D", "text":"...EPS\\in ディレクトリで新しいSPAMバージョンを検索します。", "answer":"correct"}
+        {"label":"A", "text":"A.ロックテーブルはメッセージサーバーの共有メモリにあり、メッセージサーバーを介してすべてのワークプロセスからアクセスできます。", "answer":"incorrect"},
+        {"label":"B", "text":"B.ロックテーブルは、エンキューワークプロセスが実行されているコンピューターの共有メモリにあります。", "answer":"correct"},
+        {"label":"C", "text":"C.ロックテーブルはSAPシステムにある透過テーブルであり、ABAPディクショナリを使用して内容を表示することができます。", "answer":"incorrect"},
+        {"label":"D", "text":"D.別のインスタンスからのダイアログワークプロセスの場合（エンキューワークプロセスなし）", "answer":"correct"},
+        {"label":"E", "text":"E.ロックを要求すると、ロック操作は中央インスタンスのエンキューワークプロセスによって実行されます。", "answer":"incorrect"}
     ]
   }
 ,
   "6":{
-    "quiz":"AS ABAPベースのSAPシステムでHTTPプロトコルを使用したWebシナリオをサポートする場合の前提条件は何ですか？この質問の正解は2つあります。",
+    "quiz":"AS ABAPベースのSAPシステムにはいくつのクライアントが存在できますか？",
     "option":[
-        {"label":"A", "text":"インターネット通信マネージャーを起動する必要があります。", "answer":"correct"},
-        {"label":"B", "text":"HTTPプロトコルのために論理ポートを定義する必要があります。", "answer":"incorrect"},
-        {"label":"C", "text":"サーバーポートはHTTPプロトコル用に定義されている必要があります。", "answer":"correct"},
-        {"label":"D", "text":"SAP Web Dispatcher を起動する必要があります。", "answer":"incorrect"}
+        {"label":"A", "text":"3", "answer":"incorrect"},
+        {"label":"B", "text":"100", "answer":"incorrect"},
+        {"label":"C", "text":"65536", "answer":"incorrect"},
+        {"label":"D", "text":"1000", "answer":"correct"}
     ]
   }
 ,
   "7":{
-    "quiz":"トランスポートリクエストをインポートする際に、SAPは何を推奨していますか？ (この質問に対する正解は3つあります)",
+    "quiz":"次のチェックのうち、データベースのパフォーマンス監視に役立つものはどれですか？(この質問に対する正解は3つあります)",
     "option":[
-        {"label":"A", "text":"トランスポート要求は、トランスポート要求のソフトウェアコンポーネントベクトルがターゲットシステムのソフトウェアコンポーネントとそのサポートパッケージレベルに適合する場合にのみインポートされるべきです。", "answer":"correct"},
-        {"label":"B", "text":"トランスポート要求は、インポートキュー内の順番に一つずつ生産システムにインポートされなければなりません。", "answer":"incorrect"},
-        {"label":"C", "text":"輸送要求は，常に開発システムからのエクスポートの順序で生産システムにインポートすることが望ましい。", "answer":"incorrect"},
-        {"label":"D", "text":"一般的に、生産性の高いシステムにトランスポート要求をインポートするには、メンテナンスウィンドウ（ダウンタイムウィンドウ）が必要です。", "answer":"correct"},
-        {"label":"E", "text":"輸送要求は、プロジェクトごとに生産システムにインポートされなければなりません。", "answer":"correct"}
+        {"label":"A", "text":"A.データバッファの品質を確認してください。", "answer":"correct"},
+        {"label":"B", "text":"B.共有カーソルキャッシュに高価なSQLステートメントがないか確認します。", "answer":"correct"},
+        {"label":"C", "text":"C.表領域の充填度を確認します。", "answer":"incorrect"},
+        {"label":"D", "text":"D.100を超えるエクステントを持つテーブルを確認します。", "answer":"incorrect"},
+        {"label":"E", "text":"E.オプティマイザーの統計が定期的に更新されているかどうかを確認します。", "answer":"correct"}
     ]
   },
   "8":{
-    "quiz":"あなたはAS ABAPベースのSAPシステムを運用しています。操作モードを使用することで実現できるのは次のうちどれでしょうか。この質問には2つの正解があります。",
+    "quiz":"Oracleデータベースがシャットダウンするとどうなりますか？この質問には2つの正解があります。",
     "option":[
-        {"label":"A", "text":"RFC通信のために予約された作業プロセス数を定義することができます。", "answer":"incorrect"},
-        {"label":"B", "text":"クラス \"A \"のジョブに予約されているバックグラウンド作業プロセスの数を定義することができます。", "answer":"correct"},
-        {"label":"C", "text":"バックグラウンド作業プロセスをダイアログ作業プロセスに切り替えることができます。", "answer":"correct"},
-        {"label":"D", "text":"スプールワークプロセスをダイアログワークプロセスに切り替えることができます。", "answer":"incorrect"}
+        {"label":"A", "text":"A. IMMEDIATEオプションを使用する場合、データベースがシャットダウンされる前に、開いているトランザクションがロールバックされます。", "answer":"correct"},
+        {"label":"B", "text":"B. IMMEDIATEオプションを使用する場合、次回のデータベース起動時にインスタンスのリカバリが必要です。", "answer":"incorrect"},
+        {"label":"C", "text":"C. NORMALオプションを使用する場合、データベースシステムは、データベースをシャットダウンする前にすべてのユーザーを切断します。", "answer":"incorrect"},
+        {"label":"D", "text":"D. ABORTオプションを使用すると、SAPシステムもシャットダウンされます。", "answer":"incorrect"},
+        {"label":"E", "text":"E. IMMEDIATEオプションを使用する場合、データベースシステムはデータベースをシャットダウンする前にチェックポイントを書き込みます。", "answer":"correct"}
     ]
   },
   "9":{
-    "quiz":"Oracle 10gでは、テーブルスペースSYSAUXはインストールツールSAPINSTによって自動的に作成されます。次のステートメントのうち、どれが真であるか。この問題には正解が２つあります。",
+    "quiz":"SAPサポートパッケージはどのような目的で使用されますか？正しい答えを選択してください。",
     "option":[
-        {"label":"A", "text":"SYSAUXテーブルスペースの最も重要な目的は、システムテーブルスペースの負荷を軽減し、さらに管理を簡素化することです。", "answer":"correct"},
-        {"label":"B", "text":"SYSAUXは、システムテーブルスペースの一時的なヘルプテーブルスペースです。これは、システム表領域の外にある必要な追加のメタデータのための中央スペースを提供します。以前はシステム表領域を使用していた一部のコンポーネントと製品は、現在ではSYSAUX表領域を使用しています。", "answer":"correct"},
-        {"label":"C", "text":"テーブル空間SYSAUXには、定義済みのSAPテーブルのセットが含まれています。データベースの作成では、すべてのテーブルをステップバイステップで作成するのではなく、1ステップでシステムテーブル空間にコピーされます。", "answer":"incorrect"},
-        {"label":"D", "text":"テーブルスペースSYSAUXは、インストールツールSAPINST自体が必要とするもので、一時的なOracle辞書情報を含んでいます。これにより、R3LOADフェーズのインストール時間が大幅に短縮されます。", "answer":"incorrect"}
+        {"label":"A", "text":"A.ユーザーデータを入力するため。", "answer":"incorrect"},
+        {"label":"B", "text":"B. SAPオブジェクトをインポートして、SAPシステムを最新のメンテナンスレベルに維持します。", "answer":"correct"},
+        {"label":"C", "text":"C.法的要件の変更に応じてSAPシステムに調整を実装するため。", "answer":"correct"},
+        {"label":"D", "text":"D.お客様が開発したプログラムを輸送するため。", "answer":"incorrect"},
+        {"label":"E", "text":"E.SAPがSAPServiceMarketplaceで利用可能にするすべての移送依頼をインポートします。", "answer":"incorrect"}
     ]
   },
   "10":{
-    "quiz":"ユーザー分布フィールド選択（トランザクションSCUM）を維持するときに、次のうちどれを選択しますか？この問題の正解は3つあります。",
+    "quiz":"どのプロファイルで、バックグラウンドワークプロセスの数を変更できますか？",
     "option":[
-        {"label":"A", "text":"A. 固定（Fixed）", "answer":"correct"},
-        {"label":"B", "text":"B. ローカル（Local）", "answer":"incorrect"},
-        {"label":"C", "text":"C. 中央（Central）", "answer":"correct"},
-        {"label":"D", "text":"D. 再配布（Redistribution）", "answer":"incorrect"},
-        {"label":"E", "text":"E. グローバル（Global）", "answer":"correct"}
+        {"label":"A", "text":"A. Start profile", "answer":"incorrect"},
+        {"label":"B", "text":"B. Default profile", "answer":"incorrect"},
+        {"label":"C", "text":"C. Background profile", "answer":"incorrect"},
+        {"label":"D", "text":"D. Instance profile", "answer":"correct"}
     ]
   },
   "11":{
-    "quiz":"トランザクションSPAM(Support Package Manager)を使用してABAPサポートパッケージを適用したいと考えています。何を考慮する必要がありますか？この質問の正解は2つあります。",
+    "quiz":"AS ABAPベースのSAPシステムごとにいくつのクライアントが存在できますか？",
     "option":[
-        {"label":"A", "text":"A. ABAPソフトウェアコンポーネントごとに個別のサポートパッケージが存在します。", "answer":"correct"},
-        {"label":"B", "text":"B. ABAPソフトウェアコンポーネントごとに利用可能な最新のサポートパッケージのみを適用すれば十分です。", "answer":"incorrect"},
-        {"label":"C", "text":"C. サポートパッケージを適用する前に、SPAM/SAINTアップデートを適用する必要があるかもしれません。", "answer":"correct"},
-        {"label":"D", "text":"D. 各クライアントに個別にサポートパッケージを適用する必要があります。", "answer":"incorrect"},
-        {"label":"E", "text":"E. SAP_BASIS Support Packages の適用中は、カーネルの更新によりシステムの再起動が必要です。", "answer":"incorrect"}
+        {"label":"A", "text":"A.好きなだけ。", "answer":"incorrect"},
+        {"label":"B", "text":"B.システムあたりのクライアント数は500に制限されています。", "answer":"incorrect"},
+        {"label":"C", "text":"C.SAPシステムあたりの最大クライアント数は1000クライアントです。", "answer":"correct"},
+        {"label":"D", "text":"D.システムあたりのクライアント数は1100に制限されています。", "answer":"incorrect"}
     ]
   },
   "12":{
-    "quiz":"CUAにおける必要なRFC接続に関する次の記述のうち、正しいものはどれか。正しい答えを選んでください。",
+    "quiz":"Oracleデータベースは、さまざまなタイプのインデックスを提供します。 次のうち、有効なインデックスタイプはどれですか？この質問には2つの正解があります。",
     "option":[
-        {"label":"A", "text":"A. RFC接続は，完全に大文字で指定され，アドレス指定された論理システムの名前と同一でなければならない。", "answer":"correct"},
-        {"label":"B", "text":"B. RFC接続のユーザはダイアログユーザでなければならない。", "answer":"incorrect"},
-        {"label":"C", "text":"C. 子システムからそれ自身へのRFC接続が必要です。", "answer":"incorrect"},
-        {"label":"D", "text":"D. 中央システムから「それ自身」へのRFC接続が必要です。", "answer":"correct"},
-        {"label":"E", "text":"E. 通信ユーザーのためのある特定の役割は、CUA セットアップの間だけ要求され、その後、関連するユーザーマスターレコードから削除することができます。", "answer":"correct"}
+        {"label":"A", "text":"A.ビットマップインデックス", "answer":"correct"},
+        {"label":"B", "text":"B.辞書インデックス", "answer":"incorrect"},
+        {"label":"C", "text":"C.一意のマスターインデックス", "answer":"incorrect"},
+        {"label":"D", "text":"D.バランスツリー（B *ツリー）インデックス", "answer":"correct"}
     ]
   },
   "13":{
-    "quiz":"AS ABAPをベースにしたSAPシステムで出力デバイスを設定する際に考えられる割り当ては次のうちどれか。 この質問には2つの正解があります。",
+    "quiz":"AS ABAP + Javaベース（デュアルスタック）SAPシステムのカーネルにパッチを適用する必要があります。 次のうち、新しいカーネル実行可能ファイルを配置するのはどれですか？",
     "option":[
-        {"label":"A", "text":"A. 出力装置は、特定のスプール作業工程に割り当てられている必要があります。", "answer":"incorrect"},
-        {"label":"B", "text":"B. 出力デバイスは、物理的なスプールサーバに直接割り当てることができます。", "answer":"correct"},
-        {"label":"C", "text":"C. 出力デバイスは、論理スプールサーバに直接割り当てることができます。", "answer":"correct"},
-        {"label":"D", "text":"D. 出力デバイスをスプールサーバに割り当てる必要はありません。", "answer":"incorrect"}
+        {"label":"A", "text":"A.ABAPカーネルディレクトリ", "answer":"correct"},
+        {"label":"B", "text":"B.作業ディレクトリ", "answer":"incorrect"},
+        {"label":"C", "text":"C.「KERNEL_NEW」ディレクトリ", "answer":"incorrect"},
+        {"label":"D", "text":"D.トランスポートディレクトリ、サブディレクトリ「データ」", "answer":"incorrect"}
     ]
   },
   "14":{
-    "quiz":"SAP NetWeaver ASのアーキテクチャに関する次の記述のうち、正しいものはどれか。この質問の正解は2つあります。",
+    "quiz":"トランザクションPFCG（ロールメンテナンス）を使用して新しいロールを維持する場合、添付の画像に表示されている黄色の記号は何を示していますか？",
     "option":[
-        {"label":"A", "text":"A. AS Javaの中央サービスインスタンスは、AS Javaのインストールにのみ必要で、AS ABAP+Java（デュアルスタック）のインストールには必要ありません。", "answer":"incorrect"},
-        {"label":"B", "text":"B. SAP NetWeaver ベースの SAP システムでは、AS ABAP、AS Java、または AS ABAP+Java (Dual Stack) のいずれかを使用します。", "answer":"correct"},
-        {"label":"C", "text":"C. すべてのSAP NetWeaverベースのSAPシステムは、AS ABAP+Java（デュアルスタック）システムとしてインストールできます。", "answer":"incorrect"},
-        {"label":"D", "text":"D. AS ABAP+Java (Dual Stack)では、AS JavaとAS ABAPは異なるデータベーススキーマを使用します。", "answer":"correct"}
+        {"label":"A", "text":"A.このエリアでは完全な承認は許可されていません。", "answer":"incorrect"},
+        {"label":"B", "text":"B.対応するエリアの権限の維持はまだ完了していません。 追加の作業が必要です。", "answer":"correct"},
+        {"label":"C", "text":"C.この領域に対する完全な権限があります。", "answer":"incorrect"},
+        {"label":"D", "text":"D.黄色の記号の下にあるオブジェクトを維持するために必要な権限がありません。", "answer":"incorrect"}
     ]
   },
   "15":{
-    "quiz":"SAPDOCCD.ini を使用して、オンラインドキュメントへのアクセス方法を変更するには、いくつかのオプションがあります。次のステートメントのうち、どれが正しいですか？この質問には 3 つの正解があります。",
+    "quiz":"AS ABAPベースのSAPシステムのリポジトリオブジェクトは次のうちどれですか？この質問には2つの正解があります",
     "option":[
-        {"label":"A", "text":"A. ヘルプを呼び出しているユーザーのユーザーID(SAPシステムでは)に応じて、オンラインドキュメントへのアクセスパスを変更できます。", "answer":"correct"},
-        {"label":"B", "text":"B. ヘルプを呼び出しているユーザーのログオン言語 (SAP システムでは) に応じて、オンラインドキュメントへのアクセスパスを変更できます。", "answer":"incorrect"},
-        {"label":"C", "text":"C. ヘルプの呼び出し元の SAP システムのリリースに応じて、オンラインドキュメントへのアクセスパスを変更できます。", "answer":"incorrect"},
-        {"label":"D", "text":"D. ヘルプを呼び出す元の SAP システムの SID (システム ID) に応じて、オンラインドキュメントへのアクセスパスを変更できます。", "answer":"correct"}
+        {"label":"A", "text":"A.バッファ", "answer":"incorrect"},
+        {"label":"B", "text":"B.プログラム", "answer":"correct"},
+        {"label":"C", "text":"C.スクリーン（dynpros） ", "answer":"correct"},
+        {"label":"D", "text":"D.クライアントに依存しないカスタマイジング設定", "answer":"incorrect"}
+    ]
+  },
+  "16":{
+    "quiz":"次の監視ツールのうち、AS JavaベースのSAPシステムを監視するために設計されているものはどれですか？この質問には2つの正解があります。",
+    "option":[
+        {"label":"A", "text":"A.中央のASABAPベースの監視システムでのトランザクションST02（チューンサマリー）", "answer":"incorrect"},
+        {"label":"B", "text":"B. SAP NetWeaver Administrator（NWA）", "answer":"correct"},
+        {"label":"C", "text":"C.構成ツール", "answer":"incorrect"},
+        {"label":"D", "text":"D.中央のASABAPベースの監視におけるトランザクションRZ20（CCMSモニタセット）", "answer":"correct"},
+        {"label":"E", "text":"E.システム", "answer":"incorrect"}
+    ]
+  },
+  "17":{
+    "quiz":"BR * TOOLSを使用して、表領域の断片化を減らしたいと考えています。 これを達成するためにどの方法を使用できますか？この質問には2つの正解があります。",
+    "option":[
+        {"label":"A", "text":"A.テーブルのオンライン縮小", "answer":"correct"},
+        {"label":"B", "text":"B.統計を更新する", "answer":"incorrect"},
+        {"label":"C", "text":"C.オンラインバックアップ", "answer":"incorrect"},
+        {"label":"D", "text":"D.テーブルのオンライン再定義", "answer":"correct"},
+        {"label":"E", "text":"E.合体テーブル", "answer":"incorrect"}
+    ]
+  },
+  "18":{
+    "quiz":"ABAP変更および移送システム（CTS）を使用した非ABAPオブジェクトの移送に関する記述はどれが正しいですか？",
+    "option":[
+        {"label":"A", "text":"A.非ABAPオブジェクトを移送するには、カスタマイジング依頼を使用する必要があります。", "answer":"incorrect"},
+        {"label":"B", "text":"B.非ABAPオブジェクトを移送するには、ワークベンチ依頼を使用する必要があります。", "answer":"correct"},
+        {"label":"C", "text":"C.非ABAPオブジェクトの移送依頼は、CTS_BROWSER Web Dynproアプリケーション（移送オーガナイザWeb UI）を使用して登録することができます。", "answer":"correct"},
+        {"label":"D", "text":"D.非ABAPオブジェクトの移送依頼は、AS ABAP + Javaに基づくSAPシステムのASABAP部分でトランザクションSE09を使用して登録することができます。", "answer":"correct"}
+    ]
+  },
+  "19":{
+    "quiz":"ASJavaベースのSAPシステムのシステムランドスケープを実行しています。 拡張変更転送システム（CTS）を使用して、非ABAPオブジェクトをこれらのシステムに移送する必要があります。 このタスクを実行するために必要な前提条件はどれですか？この質問には2つの正解があります。",
+    "option":[
+        {"label":"A", "text":"A.トランスポートドメインコントローラーのSoftwareDeployment Manager（SDM）は、ASJavaベースのランタイムシステムでの展開用に構成する必要があります。", "answer":"incorrect"},
+        {"label":"B", "text":"B.クライアント依存の移送ルートは、移送ドメイン内のすべてのSAPシステムに存在する必要があります。", "answer":"incorrect"},
+        {"label":"C", "text":"C. AS JavaベースのSAPシステムの移送ランドスケープは、移送ドメインコントローラのトランザクションSTMSで更新する必要があります。", "answer":"correct"},
+        {"label":"D", "text":"D. ASJavaベースのSAPシステムとトランスポートドメインコントローラのSAPリリースレベルは同じである必要があります。", "answer":"incorrect"},
+        {"label":"E", "text":"E. CTS Deploy WebサービスへのRFC宛先は、ASABAPベースのトランスポートドメインコントローラで設定する必要があります。", "answer":"correct"}
+    ]
+  },
+  "20":{
+    "quiz":"ASABAPベースのSAPシステムからSMTPを介した電子メール送信を有効にします。 次の構成手順のどれが必要ですか？（この質問には3つの正解があります）",
+    "option":[
+        {"label":"A", "text":"A.ICMに適切なプロファイルパラメータを設定します。", "answer":"correct"},
+        {"label":"B", "text":"B.トランザクションSCOT（SAPconnect：管理）を使用してSMTPノードを設定および有効化します。", "answer":"correct"},
+        {"label":"C", "text":"C.トランザクションSICF（サービス更新）を使用して、SAPconnectのICFサービスを設定および有効化します。", "answer":"incorrect"},
+        {"label":"D", "text":"D.外部メール転送エージェント（MTA）へのタイプ「T」のRFC宛先を作成します。", "answer":"incorrect"},
+        {"label":"E", "text":"E.トランザクションSCOT（SAPconnect：管理）を使用してデフォルトドメインを更新します。", "answer":"correct"}
+    ]
+  },
+  "21":{
+    "quiz":"",
+    "option":[
+        {"label":"A", "text":"", "answer":"incorrect"},
+        {"label":"B", "text":"", "answer":"incorrect"},
+        {"label":"C", "text":"", "answer":"incorrect"},
+        {"label":"D", "text":"", "answer":"incorrect"},
+        {"label":"E", "text":"", "answer":"incorrect"}
     ]
   }
 }
