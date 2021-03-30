@@ -618,16 +618,51 @@
     ]
   },
   "66":{
-    "quiz":"",
+    "quiz":"NOMOUNT状態は、データベースのリカバリ、AKCHR'ELOGモードの変更、データファイルの名前変更（移動）、およびオンラインREDOログファイルの追加、削除、または名前変更に必要です。",
     "option":[
-        {"label":"A", "text":"", "answer":"incorrect"},
-        {"label":"B", "text":"", "answer":"incorrect"},
-        {"label":"C", "text":"", "answer":"incorrect"},
-        {"label":"D", "text":"", "answer":"incorrect"},
-        {"label":"E", "text":"", "answer":"incorrect"}
+        {"label":"A", "text":"A. 不正解", "answer":"correct"},
+        {"label":"B", "text":"B. 正解", "answer":"incorrect"}
     ]
   },
   "67":{
+    "quiz":"AS Javaはログファイルをどこに保存しますか（ディレクトリの区切り文字として「/」を使用）？",
+    "option":[
+        {"label":"A", "text":"A. クラスターノード固有のディレクトリ内", "answer":"correct"},
+        {"label":"B", "text":"B. /usr /sap/<SID>/<instance>/j2ee/cluster/<ディスパッチャーまたはサーバー>/log", "answer":"incorrect"},
+        {"label":"C", "text":"C. インスタンス固有のディレクトリ/usr/sap/<SID>/<instance>/work", "answer":"incorrect"},
+        {"label":"D", "text":"D. インスタンス固有のディレクトリ/usr/sap///log", "answer":"incorrect"},
+        {"label":"E", "text":"E. システム全体のディレクトリ/usr/sap//SYS/global", "answer":"incorrect"}
+    ]
+  },
+  "68":{
+    "quiz":"データベースシステムチェック「brconnect-fcheck」はどのような情報を提供しますか？この質問には2つの正解があります。",
+    "option":[
+        {"label":"A", "text":"A. スペースクリティカルなオブジェクト", "answer":"correct"},
+        {"label":"B", "text":"B. バッファキャッシュのヒット率", "answer":"incorrect"},
+        {"label":"C", "text":"C. テーブルスペースの断片化", "answer":"correct"},
+        {"label":"D", "text":"D. すべてのテーブルとインデックスのサイズ", "answer":"incorrect"}
+    ]
+  },
+  "69":{
+    "quiz":"ABAPベースのSAPシステムの移送ドメインと移送グループに関して正しい説明は次のうちどれですか。この質問には2つの正解があります",
+    "option":[
+        {"label":"A", "text":"A. 1つのトランスポートグループ内のすべてのSAPシステムには、共通のトランスポートディレクトリがあります。", "answer":"correct"},
+        {"label":"B", "text":"B. 移送ドメインは、クライアントに依存しないテーブルTDOM（移送ドメインテーブル）で構成され、SAPシステムのすべての移送（エクスポートまたはインポート）がログに記録されます。", "answer":"incorrect"},
+        {"label":"C", "text":"C. 移送ドメイン内のすべてのSAPシステムは、同じ移送グループに属している必要があります。", "answer":"incorrect"},
+        {"label":"D", "text":"D. トランスポートドメインは、複数のアプリケーションサーバーがインストールされている場合にのみ設定できます。", "answer":"incorrect"},
+        {"label":"E", "text":"E. 1つの移送ドメイン内のすべてのSAPシステムには、同じ移送ドメインコントローラシステムを指すRFC宛先（「TMS ...」で始まる名前）があります。", "answer":"correct"}
+    ]
+  },
+  "70":{
+    "quiz":"SAPシステムのOracleデータベースには、データベーストランザクションログとも呼ばれる4つのオンラインREDOログがあります。各オンラインREDOログには、ミラーリングされたコピーがあります。 ログファイルの切り替えの効果は何ですか？",
+    "option":[
+        {"label":"A", "text":"A. データベースは、元のREDOログファイルとミラーリングされたREDOログファイルへの書き込みを切り替えます。", "answer":"incorrect"},
+        {"label":"B", "text":"B. データベースは、オンラインとオフラインのREDOログファイルへの書き込みを交互に行います。", "answer":"incorrect"},
+        {"label":"C", "text":"C. 現在のオンラインREDOログが閉じられ、次のオンラインREDOログが書き込み用に開かれます。 ARCHプロセスがトリガーされ、最近閉じられたREDOログのバックアップが開始されます。", "answer":"correct"},
+        {"label":"D", "text":"D. 現在のオンラインREDOログがミラーリングされたコピーにコピーされ、次のオンラインREDOログが書き込み用に開かれます。", "answer":"incorrect"}
+    ]
+  },
+  "71":{
     "quiz":"",
     "option":[
         {"label":"A", "text":"", "answer":"incorrect"},
