@@ -550,26 +550,84 @@
     ]
   },
   "59":{
-    "quiz":"",
-    "option":[
-        {"label":"A", "text":"", "answer":"incorrect"},
-        {"label":"B", "text":"", "answer":"correct"},
-        {"label":"C", "text":"", "answer":"incorrect"},
-        {"label":"D", "text":"", "answer":"incorrect"},
-        {"label":"E", "text":"", "answer":"correct"}
-    ]
-  },
-  "60":{
     "quiz":"アクティブなCUAのコンテキストで子システムにユーザーを作成することはどの方法で可能ですか？(正解は２つです)",
     "option":[
         {"label":"A", "text":"A. トランザクションSU01の子システムで、[システム]タブ", "answer":"incorrect"},
-        {"label":"B", "text":"B. トランザクションSU01のあるセントラルシステムで、システムタブ。", "answer":"incorrect"},
+        {"label":"B", "text":"B. トランザクションSU01のあるセントラルシステムで、システムタブ。", "answer":"correct"},
         {"label":"C", "text":"C. トランザクションPFCGを使用するセントラルシステム", "answer":"incorrect"},
         {"label":"D", "text":"D. トランザクションPFCGを使用する子システム", "answer":"incorrect"},
-        {"label":"E", "text":"E. トランザクションSU01のあるセントラルシステムで、ロールタブ", "answer":"incorrect"}
+        {"label":"E", "text":"E. トランザクションSU01のあるセントラルシステムで、ロールタブ", "answer":"correct"}
+    ]
+  },
+  "60":{
+    "quiz":"SAPシステムの標準リソースを使用して、ジョブの時間依存スケジューリングにリストされているオプションのどれを実装できますか？(複数回答あり)",
+    "option":[
+        {"label":"A", "text":"A. 毎日1500", "answer":"correct"},
+        {"label":"B", "text":"B. 毎月最後から2番目の営業日", "answer":"correct"},
+        {"label":"C", "text":"C. 9日ごと、ただし日曜日は除く", "answer":"correct"},
+        {"label":"D", "text":"D. 翌日2355でのみ", "answer":"correct"},
+        {"label":"E", "text":"E. 毎年4月1日の0800", "answer":"incorrect"}
     ]
   },
   "61":{
+    "quiz":"WAN（ワイドエリアネットワーク）接続を使用して、SAP GUI forWindowsフロントエンドをSAPシステムに接続します。 ネットワーク帯域幅に関して考慮する必要があるのは次のうちどれですか？この質問には3つの正解があります。",
+    "option":[
+        {"label":"A", "text":"A. データベースからアプリケーションサーバーに転送されるデータの量", "answer":"incorrect"},
+        {"label":"B", "text":"B. 同じ接続を使用する「SAPに関連しない」トラフィック（オフィスドキュメントなど）の量", "answer":"correct"},
+        {"label":"C", "text":"C. SAPの高度なオンラインデータ圧縮テクノロジー（SAP ODCT）を使用して、ネットワークの負荷を最小限に抑える", "answer":"incorrect"},
+        {"label":"D", "text":"D. この行を使用して処理されているダイアログステップの数", "answer":"correct"},
+        {"label":"E", "text":"E. リモート接続の「低速接続」インジケータをアクティブにする", "answer":"correct"}
+    ]
+  },
+  "62":{
+    "quiz":"CCMSモニタリングでプロパティバリアントを操作する場合、次の説明のうち正しいものはどれですか。この質問には2つの正解があります。",
+    "option":[
+        {"label":"A", "text":"A. プロパティバリアントは手動で有効化できます。", "answer":"correct"},
+        {"label":"B", "text":"B. プロパティバリアントには、99を超えるパフォーマンス属性とその設定を含めることはできません。", "answer":"incorrect"},
+        {"label":"C", "text":"C. プロパティバリアント \"SAP_DEFAULT\"は、プロパティバリアント \"*\"の親バリアントです。", "answer":"correct"},
+        {"label":"D", "text":"D.クライアントごとに、アクティブなバリアントとして別のプロパティバリアントを選択できます。", "answer":"incorrect"}
+    ]
+  },
+  "63":{
+    "quiz":"添付のスクリーンショットを考慮して、システムのデータベースはどのホストで実行されていますか？",
+    "option":[
+        {"label":"A", "text":"A. twdf1576", "answer":"correct"},
+        {"label":"B", "text":"B. DEV", "answer":"incorrect"},
+        {"label":"C", "text":"C. この質問には、入手可能な情報では回答できません。", "answer":"incorrect"},
+        {"label":"D", "text":"D. twdf1576_DEV_00", "answer":"incorrect"}
+    ]
+  },
+  "64":{
+    "quiz":"トランザクションSCU0（クロスシステムビューア）とトランザクションSM30（テーブルビューの更新）を使用してクライアントを比較する場合、次の説明のうち正しいものはどれですか。この質問には3つの正解があります",
+    "option":[
+        {"label":"A", "text":"A. 表の内容はSAPR / 2とSAPECCシステムの間で比較できます。", "answer":"incorrect"},
+        {"label":"B", "text":"B. カスタマイジングデータは、トランザクションSM30（テーブルビューの更新）を使用してクライアント間で調整することができます。", "answer":"correct"},
+        {"label":"C", "text":"C. テーブルの内容は、異なるSAPシステムの異なるクライアント間で比較できます。", "answer":"correct"},
+        {"label":"D", "text":"D. テーブルの内容は、同じSAPシステム内の異なるクライアント間で比較できます。", "answer":"correct"},
+        {"label":"E", "text":"E. テーブルの内容は、データベースレベルで直接比較することしかできません。", "answer":"incorrect"}
+    ]
+  },
+  "65":{
+    "quiz":"AS ABAP（SAP ECCなど）に基づいてSAPシステム内に新しいクライアントを作成する場合、正しいのは次のうちどれですか？",
+    "option":[
+        {"label":"A", "text":"A. 新しいクライアントの作成が成功したことを示すログファイルは、コピーを開始したユーザーのホームディレクトリに保存されます。", "answer":"incorrect"},
+        {"label":"B", "text":"B. ソースクライアントからのカスタマイジングおよびリポジトリオブジェクトは、クライアントコピーツールを使用して新しいクライアントに自動的にコピーされます。", "answer":"incorrect"},
+        {"label":"C", "text":"C. クライアント転送ツールを使用して、同じソースクライアントを1つのSAPシステムから他の複数のSAPシステムに1回のアクションで同時に転送することができます。", "answer":"incorrect"},
+        {"label":"D", "text":"D. クライアントコピーは、複数のダイアログワークプロセスを並行して使用することで高速化できます。", "answer":"correct"},
+        {"label":"E", "text":"E. リモートクライアントコピーは、オペレーティングシステムレベルで大きなデータファイルを生成します。", "answer":"incorrect"}
+    ]
+  },
+  "66":{
+    "quiz":"",
+    "option":[
+        {"label":"A", "text":"", "answer":"incorrect"},
+        {"label":"B", "text":"", "answer":"incorrect"},
+        {"label":"C", "text":"", "answer":"incorrect"},
+        {"label":"D", "text":"", "answer":"incorrect"},
+        {"label":"E", "text":"", "answer":"incorrect"}
+    ]
+  },
+  "67":{
     "quiz":"",
     "option":[
         {"label":"A", "text":"", "answer":"incorrect"},
