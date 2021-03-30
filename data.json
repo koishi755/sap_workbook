@@ -464,16 +464,35 @@
     ]
   },
   "50":{
-    "quiz":"",
+    "quiz":"移送依頼のインポートを開始しました。 DDICインポート（DD IMPORT）フェーズには非常に長い時間がかかるようです。インポートがまだ実行されているかどうかを確認するにはどうすればよいですか？",
     "option":[
-        {"label":"A", "text":"", "answer":"incorrect"},
-        {"label":"B", "text":"", "answer":"incorrect"},
-        {"label":"C", "text":"", "answer":"incorrect"},
-        {"label":"D", "text":"", "answer":"incorrect"},
-        {"label":"E", "text":"", "answer":"incorrect"}
+        {"label":"A", "text":"A.トランザクションデータブラウザ（SE16）で、テーブルE070にコンテンツがないことを確認してください。", "answer":"incorrect"},
+        {"label":"B", "text":"B.オペレーティングシステムレベルで、R3transプロセスがまだ実行されていることを確認します。", "answer":"correct"},
+        {"label":"C", "text":"C.トランザクションプロセス概要（SM50）で、タイプダイアログの少なくとも1つのワークプロセスがステータス実行中であることを確認します。", "answer":"incorrect"},
+        {"label":"D", "text":"D.トランザクションSimpleJob Selection（SM37）で、ジョブRDDIMPDPがまだ実行中であることを確認します。", "answer":"incorrect"}
     ]
   },
   "51":{
+    "quiz":"次のOracleパラメータのうち、init <DBSID> .oraファイルで変更してはならないものはどれですか。この質問には2つの正解があります。",
+    "option":[
+        {"label":"A", "text":"A. row_cache_cursors", "answer":"incorrect"},
+        {"label":"B", "text":"B. db_block_size", "answer":"correct"},
+        {"label":"C", "text":"C. shared_pool_size", "answer":"incorrect"},
+        {"label":"D", "text":"D. db_block_buffers", "answer":"incorrect"},
+        {"label":"E", "text":"E. db_name", "answer":"correct"}
+    ]
+  },
+  "52":{
+    "quiz":"SAP Business Suiteの一部であるアプリケーション/ソリューションはどれですか？この質問には3つの正解があります。",
+    "option":[
+        {"label":"A", "text":"A. SAP CRM", "answer":"correct"},
+        {"label":"B", "text":"B. SAP Business One", "answer":"incorrect"},
+        {"label":"C", "text":"C. SAP SOA", "answer":"incorrect"},
+        {"label":"D", "text":"D. SAP SRM", "answer":"correct"},
+        {"label":"E", "text":"E. SAP ERP", "answer":"correct"}
+    ]
+  },
+  "53":{
     "quiz":"",
     "option":[
         {"label":"A", "text":"", "answer":"incorrect"},
@@ -483,7 +502,77 @@
         {"label":"E", "text":"", "answer":"incorrect"}
     ]
   },
-  "52":{
+  "54":{
+    "quiz":"メッセージサービスは、Javaクラスターで次のタスクを実行します:(複数の回答が当てはまります）",
+    "option":[
+        {"label":"A", "text":"A. 保証されたメッセージ送信", "answer":"correct"},
+        {"label":"B", "text":"B. アプリケーションはオブジェクトをロックできますが、ロックを再度解除します。", "answer":"incorrect"},
+        {"label":"C", "text":"C. メインメモリ内のロックテーブルを管理し、ロックの設定または解放の要求を受信します", "answer":"incorrect"},
+        {"label":"D", "text":"D. すべての参加者へのメッセージとリクエストの転送（ブロードキャスト）", "answer":"correct"},
+        {"label":"E", "text":"E. メッセージサーバーフェイルオーバーのサポート", "answer":"correct"},
+        {"label":"F", "text":"F. 異なるサービス間の通信", "answer":"correct"}
+    ]
+  },
+  "55":{
+    "quiz":"次のオプションのうち、SAProuterをインストールして構成する必要があるのはどれですか？（2つ選択してください。）",
+    "option":[
+        {"label":"A", "text":"A. SAPシステムに問題が発生した場合に備えて、サポートメッセージを作成します", "answer":"incorrect"},
+        {"label":"B", "text":"B. SAPの従業員がリモートで行うEarlyWatchセッション", "answer":"correct"},
+        {"label":"C", "text":"C. http：//help.sap.comへの接続。", "answer":"incorrect"},
+        {"label":"D", "text":"D. SAPからのリモートコンサルティング", "answer":"correct"}
+    ]
+  },
+  "56":{
+    "quiz":"",
+    "option":[
+        {"label":"A", "text":"", "answer":"incorrect"},
+        {"label":"B", "text":"", "answer":"incorrect"},
+        {"label":"C", "text":"", "answer":"incorrect"},
+        {"label":"D", "text":"", "answer":"incorrect"},
+        {"label":"E", "text":"", "answer":"incorrect"}
+    ]
+  },
+  "57":{
+    "quiz":"",
+    "option":[
+        {"label":"A", "text":"", "answer":"incorrect"},
+        {"label":"B", "text":"", "answer":"incorrect"},
+        {"label":"C", "text":"", "answer":"incorrect"},
+        {"label":"D", "text":"", "answer":"incorrect"},
+        {"label":"E", "text":"", "answer":"incorrect"}
+    ]
+  },
+  "58":{
+    "quiz":"",
+    "option":[
+        {"label":"A", "text":"", "answer":"incorrect"},
+        {"label":"B", "text":"", "answer":"incorrect"},
+        {"label":"C", "text":"", "answer":"incorrect"},
+        {"label":"D", "text":"", "answer":"incorrect"},
+        {"label":"E", "text":"", "answer":"incorrect"}
+    ]
+  },
+  "59":{
+    "quiz":"",
+    "option":[
+        {"label":"A", "text":"", "answer":"incorrect"},
+        {"label":"B", "text":"", "answer":"incorrect"},
+        {"label":"C", "text":"", "answer":"incorrect"},
+        {"label":"D", "text":"", "answer":"incorrect"},
+        {"label":"E", "text":"", "answer":"incorrect"}
+    ]
+  },
+  "60":{
+    "quiz":"",
+    "option":[
+        {"label":"A", "text":"", "answer":"incorrect"},
+        {"label":"B", "text":"", "answer":"incorrect"},
+        {"label":"C", "text":"", "answer":"incorrect"},
+        {"label":"D", "text":"", "answer":"incorrect"},
+        {"label":"E", "text":"", "answer":"incorrect"}
+    ]
+  },
+  "61":{
     "quiz":"",
     "option":[
         {"label":"A", "text":"", "answer":"incorrect"},
