@@ -523,53 +523,50 @@
     ]
   },
   "56":{
-    "quiz":"",
+    "quiz":"SAP NetWeaver AS ABAPを使用したローカル印刷に関する説明として正しいものはどれですか？",
     "option":[
-        {"label":"A", "text":"", "answer":"incorrect"},
-        {"label":"B", "text":"", "answer":"incorrect"},
-        {"label":"C", "text":"", "answer":"incorrect"},
-        {"label":"D", "text":"", "answer":"incorrect"},
-        {"label":"E", "text":"", "answer":"incorrect"}
+        {"label":"A", "text":"A. 出力デバイスにローカル印刷を設定する場合は、オペレーティングシステムに応じてアクセス方法LまたはCを選択する必要があります。", "answer":"correct"},
+        {"label":"B", "text":"B. 出力デバイスのローカル印刷を構成する場合は、任意のオペレーティングシステムのアクセス方法Lを選択する必要があります。", "answer":"incorrect"},
+        {"label":"C", "text":"C. 出力デバイスのローカル印刷を構成する場合は、UNIXオペレーティングシステムのアクセス方法Uを選択する必要があります。", "answer":"incorrect"}
     ]
   },
   "57":{
-    "quiz":"",
+    "quiz":"適用されたサポートパッケージの現在のパッチレベルに関して、AS ABAPベースのSAPシステムのパッチレベルをどのように決定できますか？この質問には2つの正解があります",
     "option":[
-        {"label":"A", "text":"", "answer":"incorrect"},
-        {"label":"B", "text":"", "answer":"incorrect"},
-        {"label":"C", "text":"", "answer":"incorrect"},
-        {"label":"D", "text":"", "answer":"incorrect"},
-        {"label":"E", "text":"", "answer":"incorrect"}
+        {"label":"A", "text":"A. メニューパスの下にある情報を使用して、この情報にアクセスできます。「システム->ステータス」。", "answer":"correct"},
+        {"label":"B", "text":"B.「disp + work-v」または「dw-v」（オペレーティングシステムによって異なります）を呼び出すと、この情報が得られます。", "answer":"incorrect"},
+        {"label":"C", "text":"C. この情報は、トランザクション「PATCH」を使用して見つけることができます。", "answer":"incorrect"},
+        {"label":"D", "text":"D. その情報はトランザクション \"SPAM\"内にあります。", "answer":"correct"}
     ]
   },
   "58":{
-    "quiz":"",
+    "quiz":"ユーザ配分項目選択（トランザクションSCUM）を更新する場合、以下のオプションのどれを選択できますか？この質問には3つの正解があります。",
     "option":[
-        {"label":"A", "text":"", "answer":"incorrect"},
-        {"label":"B", "text":"", "answer":"incorrect"},
-        {"label":"C", "text":"", "answer":"incorrect"},
-        {"label":"D", "text":"", "answer":"incorrect"},
-        {"label":"E", "text":"", "answer":"incorrect"}
+        {"label":"A", "text":"A. 修正済み", "answer":"correct"},
+        {"label":"B", "text":"B. ローカル", "answer":"incorrect"},
+        {"label":"C", "text":"C. セントラル", "answer":"correct"},
+        {"label":"D", "text":"D. 再配布", "answer":"incorrect"},
+        {"label":"E", "text":"E. グローバル", "answer":"correct"}
     ]
   },
   "59":{
     "quiz":"",
     "option":[
         {"label":"A", "text":"", "answer":"incorrect"},
-        {"label":"B", "text":"", "answer":"incorrect"},
+        {"label":"B", "text":"", "answer":"correct"},
         {"label":"C", "text":"", "answer":"incorrect"},
         {"label":"D", "text":"", "answer":"incorrect"},
-        {"label":"E", "text":"", "answer":"incorrect"}
+        {"label":"E", "text":"", "answer":"correct"}
     ]
   },
   "60":{
-    "quiz":"",
+    "quiz":"アクティブなCUAのコンテキストで子システムにユーザーを作成することはどの方法で可能ですか？(正解は２つです)",
     "option":[
-        {"label":"A", "text":"", "answer":"incorrect"},
-        {"label":"B", "text":"", "answer":"incorrect"},
-        {"label":"C", "text":"", "answer":"incorrect"},
-        {"label":"D", "text":"", "answer":"incorrect"},
-        {"label":"E", "text":"", "answer":"incorrect"}
+        {"label":"A", "text":"A. トランザクションSU01の子システムで、[システム]タブ", "answer":"incorrect"},
+        {"label":"B", "text":"B. トランザクションSU01のあるセントラルシステムで、システムタブ。", "answer":"incorrect"},
+        {"label":"C", "text":"C. トランザクションPFCGを使用するセントラルシステム", "answer":"incorrect"},
+        {"label":"D", "text":"D. トランザクションPFCGを使用する子システム", "answer":"incorrect"},
+        {"label":"E", "text":"E. トランザクションSU01のあるセントラルシステムで、ロールタブ", "answer":"incorrect"}
     ]
   },
   "61":{
