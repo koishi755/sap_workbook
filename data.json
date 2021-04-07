@@ -798,16 +798,52 @@
     ]
   },
   "86":{
-    "quiz":"",
+    "quiz":"AS ABAP + Javaシステムでは、SAP WebDispatcherは次のうちどれと通信しますか？",
     "option":[
-        {"label":"A", "text":"", "answer":"incorrect"},
-        {"label":"B", "text":"", "answer":"incorrect"},
-        {"label":"C", "text":"", "answer":"incorrect"},
-        {"label":"D", "text":"", "answer":"incorrect"},
-        {"label":"E", "text":"", "answer":"incorrect"}
+        {"label":"A", "text":"A. ASABAPメッセージサーバ", "answer":"correct"},
+        {"label":"B", "text":"B. ASJavaセントラルサービスインスタンス", "answer":"incorrect"},
+        {"label":"C", "text":"C. ASJavaメッセージサーバー", "answer":"incorrect"},
+        {"label":"D", "text":"D. ASABAPとASJavaメッセージサーバーの両方", "answer":"incorrect"}
     ]
   },
   "87":{
+    "quiz":"SAP System Landscape Directory（SLD）からSAP SolutionManagerシステムへの自動データ転送を設定する必要があります。 次の構成手順のどれが必要ですか？この質問には2つの正解があります。",
+    "option":[
+        {"label":"A", "text":"A. SAP Solution Managerシステムで、SLDへのタイプ「3」の信頼できるRFC接続を作成する必要があります。", "answer":"incorrect"},
+        {"label":"B", "text":"B. SLDシステムでは、VisualAdministratorでJCoRFCプロバイダーサービスを構成する必要があります。", "answer":"correct"},
+        {"label":"C", "text":"C. SAP Solution Managerシステムでは、定期的なデータ転送ジョブ（ジョブLANDSCAPE_FETCH）をスケジュールする必要があります。 これは、トランザクションSMSY_SETUPで実行できます。", "answer":"correct"},
+        {"label":"D", "text":"D. SLDシステムでは、SAP Solution Managerシステムへのデータ転送を開始するイベント（イベントSTART_TRANSFER）をトリガする必要があります。", "answer":"incorrect"}
+    ]
+  },
+  "88":{
+    "quiz":"ASABAPベースのSAPシステム用のリポジトリオブジェクトを開発しました。 開発作業は移送依頼内に記録されています。 開発システムの移送オーガナイザ（トランザクションSE09）でタスクをリリースするとどうなりますか？",
+    "option":[
+        {"label":"A", "text":"A. リポジトリロックは、それぞれのリポジトリオブジェクトに対して解放されます。", "answer":"incorrect"},
+        {"label":"B", "text":"B. リポジトリオブジェクトは変更できなくなりました。", "answer":"incorrect"},
+        {"label":"C", "text":"C. オブジェクトエントリは、それぞれのリポジトリオブジェクトの移送依頼のオブジェクトリストにコピーされます。", "answer":"correct"},
+        {"label":"D", "text":"D. エクスポートプロセスが開始されます。", "answer":"incorrect"}
+    ]
+  },
+  "89":{
+    "quiz":"AS ABAPベースのSAPシステムのSAPオンラインヘルプに関して、正しい説明は次のうちどれですか。（この質問には3つの正解があります）",
+    "option":[
+        {"label":"A", "text":"A. オンラインドキュメントをインストールするときに、標準HTML（PlainHtml）とコンパイル済みHTML（HtmlHelp）のどちらかを選択するオプションがあります。", "answer":"correct"},
+        {"label":"B", "text":"B. オンライン文書はSAPシステムのデータベースにインストールすることができます。", "answer":"incorrect"},
+        {"label":"C", "text":"C. オンラインドキュメントは、ファイルまたはWebサーバーにインストールできます。", "answer":"correct"},
+        {"label":"D", "text":"D. オンラインドキュメントは、デフォルトで使用可能なすべての言語でインストールされます。", "answer":"incorrect"},
+        {"label":"E", "text":"E. オンライン文書へのアクセスは、トランザクションSR13（管理：SAPライブラリの表示）で設定することができます。", "answer":"correct"}
+    ]
+  },
+  "90":{
+    "quiz":"SAP認証の概念は前向きな概念です。理由は...正しい答えを選択してください。",
+    "option":[
+        {"label":"A", "text":"A. すべてのユーザーが自動的にすべての認証を受け取ります。", "answer":"incorrect"},
+        {"label":"B", "text":"B. 承認は明示的に割り当てる必要があります。", "answer":"correct"},
+        {"label":"C", "text":"C. 権限チェックの機能の範囲が非常に広い。", "answer":"incorrect"},
+        {"label":"D", "text":"D. 開発者はそれを効率的にプログラムしました。", "answer":"incorrect"}
+    ]
+  },
+  "91":{
     "quiz":"",
     "option":[
         {"label":"A", "text":"", "answer":"incorrect"},
