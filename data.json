@@ -709,6 +709,105 @@
     ]
   },
   "76":{
+    "quiz":"次のアクセス方法のうち、SAPシステムに存在するものはどれですか？正しい答えを3つ選択してください。",
+    "option":[
+        {"label":"A", "text":"A. Remote printing", "answer":"correct"},
+        {"label":"B", "text":"B. Front-end printing", "answer":"correct"},
+        {"label":"C", "text":"C. Instance printing", "answer":"incorrect"},
+        {"label":"D", "text":"D. Local printing", "answer":"correct"}
+    ]
+  },
+  "77":{
+    "quiz":"Oracle 10gでは、表領域SYSAUXはインストールツールSAPINSTによって自動的に作成されます。 次の説明のうち正しいものはどれですか？この質問には2つの正解があります。",
+    "option":[
+        {"label":"A", "text":"A. SYSAUX表領域の最も重要な目的は、システム表領域の負荷を軽減し、さらに管理を簡素化することです。", "answer":"correct"},
+        {"label":"B", "text":"B. SYSAUXは、システム表領域の一時的なヘルプ表領域です。 これは、システム表領域の外部に必要な追加のメタデータのための中央スペースを提供します。 以前はシステム表領域を使用していた一部のコンポーネントおよび製品は、現在SYSAUX表領域を使用しています。", "answer":"correct"},
+        {"label":"C", "text":"C. 表領域SYSAUXには、事前定義されたSAP表のセットが含まれています。 データベースの作成では、すべてのテーブルを段階的に作成するのではなく、1つのステップでシステムテーブルスペースにコピーされます。", "answer":"incorrect"},
+        {"label":"D", "text":"D. 表領域SYSAUXは、インストールツールSAPINST自体に必要であり、一時的なOracleディクショナリ情報が含まれています。 これにより、R3LOADフェーズのインストール時間が大幅に短縮されます。", "answer":"incorrect"}
+    ]
+  },
+  "78":{
+    "quiz":"TemSeスプールオブジェクトの現在の保管場所をどのように判断できますか？",
+    "option":[
+        {"label":"A", "text":"A. データベースの表領域PSAPSPOOLを確認してください。", "answer":"incorrect"},
+        {"label":"B", "text":"B. 環境変数DIR_SAPSPOOLを確認します", "answer":"incorrect"},
+        {"label":"C", "text":"C. システムパラメータrspo / store_locationの値を確認します。", "answer":"correct"},
+        {"label":"D", "text":"D. SAP SpoolerVaultパラメータの値を確認します。", "answer":"incorrect"}
+    ]
+  },
+  "79":{
+    "quiz":"サーバーの全体管理の削除に関する次の説明のうち、正しいものはどれですか。（2つ選択してください。）",
+    "option":[
+        {"label":"A", "text":"A. CUAが完全に構成され、ユーザーがCUAマスタークライアントに転送されると、CUAを完全に削除することはできなくなります。", "answer":"incorrect"},
+        {"label":"B", "text":"B. 子システムをCUAから（永続的または一時的に）削除できます。", "answer":"correct"},
+        {"label":"C", "text":"C. CUAを完全に削除できます。", "answer":"correct"},
+        {"label":"D", "text":"D. CUAから子システムを削除すると、この子クライアントに存在するすべてのユーザーが自動的に失われます。", "answer":"incorrect"}
+    ]
+  },
+  "80":{
+    "quiz":"Oracleデータベースは、さまざまなタイプのインデックスを提供します。 有効なインデックスタイプはどれですか？この質問には2つの正解があります。",
+    "option":[
+        {"label":"A", "text":"A. Bitmap index", "answer":"correct"},
+        {"label":"B", "text":"B. Unique master index", "answer":"incorrect"},
+        {"label":"C", "text":"C. Dictionary index", "answer":"incorrect"},
+        {"label":"D", "text":"D. Balanced tree (B*tree) index", "answer":"correct"}
+    ]
+  },
+  "81":{
+    "quiz":"SAPのソフトウェア保守戦略を最もよく表すキャッチフレーズはどれですか？",
+    "option":[
+        {"label":"A", "text":"A. \"3-3-1 maintenance\"", "answer":"incorrect"},
+        {"label":"B", "text":"B. \"5-1-2 maintenance\"", "answer":"correct"},
+        {"label":"C", "text":"C. \"4-2-2 maintenance\"", "answer":"incorrect"}
+    ]
+  },
+  "82":{
+    "quiz":"SAPシステムで使用されるOracleデータベースの統計を更新するためにSAPが推奨するのは次のうちどれですか？この質問には2つの正解があります。",
+    "option":[
+        {"label":"A", "text":"A. トランザクションDBACOCKPITを使用して、更新統計の実行をスケジュールします。", "answer":"correct"},
+        {"label":"B", "text":"B. 統計の更新には、Oracleが提供するツールとスクリプトを使用します。", "answer":"incorrect"},
+        {"label":"C", "text":"C.「brconnect-fstats」を追加のコマンドとともに使用して、統計の更新をスケジュールします。", "answer":"correct"},
+        {"label":"D", "text":"D. トランザクションST10（テーブルコール統計）を使用します。", "answer":"incorrect"}
+    ]
+  },
+  "83":{
+    "quiz":"次のデータソースのうち、UMEでサポートされているものはどれですか。3つ選択",
+    "option":[
+        {"label":"A", "text":"A. データベース", "answer":"correct"},
+        {"label":"B", "text":"B. ファイルシステム", "answer":"correct"},
+        {"label":"C", "text":"C. ABAPユーザー管理", "answer":"incorrect"},
+        {"label":"D", "text":"D. ディレクトリサービス", "answer":"correct"}
+    ]
+  },
+  "84":{
+    "quiz":"SAP Identity Management（IdM）の機能は次のうちどれですか？２つ選択",
+    "option":[
+        {"label":"A", "text":"A. SAPシステムと非SAPシステムの異なるデータベースの統合", "answer":"incorrect"},
+        {"label":"B", "text":"B. 統合されたSAPNetWeaverセキュリティフレームワークとの互換性", "answer":"correct"},
+        {"label":"C", "text":"C. ライトウェイトディレクトリアクセスプロトコル（LDAP）コネクタとして機能します", "answer":"incorrect"},
+        {"label":"D", "text":"D. SAPNetWeaverプラットフォームおよびビジネスアプリケーションとの統合", "answer":"correct"}
+    ]
+  },
+  "85":{
+    "quiz":"どのSAP製品がSAPNetWeaverを使用していますか？３つ選択",
+    "option":[
+        {"label":"A", "text":"A. SAP R/3 4.6C", "answer":"incorrect"},
+        {"label":"B", "text":"B. SAP CRM", "answer":"correct"},
+        {"label":"C", "text":"C. SAP Business All-In-One", "answer":"correct"},
+        {"label":"D", "text":"D. SAP ERP", "answer":"correct"}
+    ]
+  },
+  "86":{
+    "quiz":"",
+    "option":[
+        {"label":"A", "text":"", "answer":"incorrect"},
+        {"label":"B", "text":"", "answer":"incorrect"},
+        {"label":"C", "text":"", "answer":"incorrect"},
+        {"label":"D", "text":"", "answer":"incorrect"},
+        {"label":"E", "text":"", "answer":"incorrect"}
+    ]
+  },
+  "87":{
     "quiz":"",
     "option":[
         {"label":"A", "text":"", "answer":"incorrect"},
