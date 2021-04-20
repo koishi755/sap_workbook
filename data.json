@@ -844,6 +844,52 @@
     ]
   },
   "91":{
+    "quiz":"セントラルインスタンスと1つのダイアログインスタンスで構成されるASABAPベースのSAPシステムを実行しています。RFCゲートウェイはどこで実行されますか？",
+    "option":[
+        {"label":"A", "text":"A. ABAPディスパッチャの一部として", "answer":"incorrect"},
+        {"label":"B", "text":"B. 両方のインスタンスで", "answer":"correct"},
+        {"label":"C", "text":"C. インターネットコミュニケーションマネージャー（ICM）の一部として", "answer":"incorrect"},
+        {"label":"D", "text":"D. セントラルインスタンスのみ", "answer":"incorrect"}
+    ]
+  },
+  "92":{
+    "quiz":"Oracleデータベースのインデックスの断片化とはどういう意味ですか？この質問には2つの正解があります。",
+    "option":[
+        {"label":"A", "text":"A. インデックスルートブロックが破損しています。", "answer":"incorrect"},
+        {"label":"B", "text":"B. naindexの断片化は、スペースがnaindexでどの程度適切に使用されるかを指定します。", "answer":"incorrect"},
+        {"label":"C", "text":"C. インデックスリーフブロックは、複数の表スペースに分散しています。", "answer":"correct"},
+        {"label":"D", "text":"D. 使用可能なスペースの合計と比較して実際に使用されるスペースが小さいほど、インデックスはより断片化されます。", "answer":"correct"}
+    ]
+  },
+  "93":{
+    "quiz":"サーバーの全体管理（CUA）を実装する場合、次のうちどれを考慮する必要がありますか？2つ選択してください。）CUAを使用するか、ユーザー管理にディレクトリサーバーを使用する必要があります。同じクライアントで両方を同時に使用することはできません。CUAは、ALEを使用してユーザマスタデータを配布します。CUAは、2つのクライアント間でのみ設定できます。ロール定義によって生成された許可プロファイルは、ロール定義とともに配布されます。",
+    "option":[
+        {"label":"A", "text":"A. 論理システムは、命名規則<SID> CLNT ###を使用して定義する必要があります。ここで、<SID>はシステムIDを示し、###はクライアント番号を示します。同じ命名規則を使用してRFC接続を作成する必要があります。", "answer":"correct"},
+        {"label":"B", "text":"B. CUAを使用するか、ユーザー管理にディレクトリサーバーを使用する必要があります。同じクライアントで両方を同時に使用することはできません。", "answer":"incorrect"},
+        {"label":"C", "text":"C. CUAはALEを使用してユーザーマスターデータを配布します。", "answer":"incorrect"},
+        {"label":"D", "text":"D. CUAは2つのクライアント間でのみ設定できます", "answer":"incorrect"},
+        {"label":"E", "text":"E. ロール定義によって生成された許可プロファイルは、ロール定義とともに配布されます。", "answer":"correct"}
+    ]
+  },
+  "94":{
+    "quiz":"以下のプログラミング言語のうち、プラットフォームに依存せずに実装されているのはどれですか？",
+    "option":[
+        {"label":"A", "text":"A. Fortran", "answer":"incorrect"},
+        {"label":"B", "text":"B. ABAP", "answer":"correct"},
+        {"label":"C", "text":"C. Java", "answer":"correct"},
+        {"label":"D", "text":"D. C/C++", "answer":"incorrect"}
+    ]
+  },
+  "95":{
+    "quiz":"SAP認証の概念は前向きな概念です。理由は...正しい答えを選択してください。",
+    "option":[
+        {"label":"A", "text":"A. すべてのユーザーが自動的にすべての認証を受け取ります。", "answer":"incorrect"},
+        {"label":"B", "text":"B. 承認は明示的に割り当てる必要があります。", "answer":"correct"},
+        {"label":"C", "text":"C. 権限チェックの機能の範囲が非常に広い。", "answer":"incorrect"},
+        {"label":"D", "text":"D. 開発者はそれを効率的にプログラムしました。", "answer":"incorrect"}
+    ]
+  },
+  "96":{
     "quiz":"",
     "option":[
         {"label":"A", "text":"", "answer":"incorrect"},
