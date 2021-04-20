@@ -890,6 +890,51 @@
     ]
   },
   "96":{
+    "quiz":"ASABAPベースのSAPシステムでのユーザー管理に関する正しい説明はどれですか。この質問には2つの正解があります。",
+    "option":[
+        {"label":"A", "text":"A. タイプ「Dialog」のユーザーはバックグラウンド処理には使用できません。", "answer":"incorrect"},
+        {"label":"B", "text":"B. パスワードを忘れた場合は、ログオン画面の[ユーザー]-> [新しいパスワード]メニューパスを使用して、新しいパスワードを要求していることをシステム管理者に通知できます。", "answer":"incorrect"},
+        {"label":"C", "text":"C. ユーザータイプが「システム」のユーザーは、SAPGUIを使用してシステムにログオンすることはできません。", "answer":"correct"},
+        {"label":"D", "text":"D. SAPでは、ユーザマスタデータへのロールの割当を介して権限プロファイルを割り当てることをお奨めします。", "answer":"correct"}
+    ]
+  },
+  "97":{
+    "quiz":"SAPシステムへのログオンを妨げる原因は何ですか？この質問には2つの正解があります。",
+    "option":[
+        {"label":"A", "text":"A. ユーザー名の入力ミス", "answer":"correct"},
+        {"label":"B", "text":"B. ユーザー認証がありません", "answer":"incorrect"},
+        {"label":"C", "text":"C. SAPシステムへのネットワーク接続が切断されている", "answer":"correct"},
+        {"label":"D", "text":"D. 動作モードが「夜間」に切り替わります", "answer":"incorrect"}
+    ]
+  },
+  "98":{
+    "quiz":"オンラインバックアップを使用してバックアップ戦略を確立しました。 最後のオンラインバックアップの後、データベースを以前の時点に復元したいと考えています。 この時点の回復にはどのファイルが必要ですか？",
+    "option":[
+        {"label":"A", "text":"A. すべてのデータファイル、制御ファイル、およびデータベースパラメータファイル", "answer":"incorrect"},
+        {"label":"B", "text":"B. すべてのオフラインREDOログファイル、制御ファイル、およびOracle実行可能ファイル", "answer":"incorrect"},
+        {"label":"C", "text":"C. オンラインREDOログファイルと制御ファイル", "answer":"incorrect"},
+        {"label":"D", "text":"D. 最後のオンラインバックアップ中およびそれ以降に書き込まれたすべてのデータファイル、制御ファイル、およびすべてのREDOログ", "answer":"correct"}
+    ]
+  },
+  "99":{
+    "quiz":"DEVシステムからの移送依頼がQASシステムの複数のクライアントにインポートされるようにするにはどうすればよいですか？",
+    "option":[
+        {"label":"A", "text":"A. クライアント固有のトランスポートターゲットグループを使用する", "answer":"correct"},
+        {"label":"B", "text":"B. DEVシステムからQASシステムを指すさまざまな統合ルートを定義する", "answer":"incorrect"},
+        {"label":"C", "text":"C. TMSでこれを達成することは不可能です。", "answer":"incorrect"}
+    ]
+  },
+  "100":{
+    "quiz":"Internet Communication Manager（ICM）で処理できる要求の種類は何ですか？この質問には3つの正解があります",
+    "option":[
+        {"label":"A", "text":"A. ABAPスタックとの間のRFC要求", "answer":"incorrect"},
+        {"label":"B", "text":"B. ABAPスタックとの間のSMTP要求", "answer":"correct"},
+        {"label":"C", "text":"C. SAP統合ITSに対するHTTPリクエスト", "answer":"correct"},
+        {"label":"D", "text":"D. デュアルスタックシステムの場合のJavaスタックに対するHTTPリクエスト", "answer":"correct"},
+        {"label":"E", "text":"E. ABAPスタックとの間でリクエストをキューに入れる", "answer":"incorrect"}
+    ]
+  },
+  "101":{
     "quiz":"",
     "option":[
         {"label":"A", "text":"", "answer":"incorrect"},
