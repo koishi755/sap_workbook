@@ -980,6 +980,51 @@
     ]
   },
   "106":{
+    "quiz":"システムプロファイルファイルに関する次の説明のうち、正しいものはどれですか。（2つ選択してください。）",
+    "option":[
+        {"label":"A", "text":"A. プロファイルファイルはシステムのインストール中に作成され、後で編集することもできます。", "answer":"correct"},
+        {"label":"B", "text":"B. 動的に切り替え可能なプロファイルパラメータのメンテナンス後、プロファイルはすぐに読み取られます。", "answer":"incorrect"},
+        {"label":"C", "text":"C. プロファイルファイルは、オペレーティングシステムツールによってのみ更新できます。", "answer":"correct"},
+        {"label":"D", "text":"D. プロファイルファイルは、システム/インスタンスの起動時にのみ読み取られます。", "answer":"incorrect"}
+    ]
+  },
+  "107":{
+    "quiz":"AS ABAPに基づくSAPシステムでバックグラウンド処理に外部コマンドを使用する場合、正しい説明は次のうちどれですか。",
+    "option":[
+        {"label":"A", "text":"A. バックグラウンドジョブからオペレーティングシステムコマンドを実行する唯一の方法は、外部コマンドを使用することです。", "answer":"incorrect"},
+        {"label":"B", "text":"B. バックグラウンドユーザーのみが外部コマンドを実行できます。", "answer":"incorrect"},
+        {"label":"C", "text":"C. 外部プログラムまたは外部コマンドを使用して、バックグラウンドジョブからオペレーティングシステムコマンドを実行できます。", "answer":"correct"}
+    ]
+  },
+  "108":{
+    "quiz":"インストールチェックによって実行されないアクティビティを特定します。正しい答えを選択してください。",
+    "option":[
+        {"label":"A", "text":"A. インストールの完全性", "answer":"incorrect"},
+        {"label":"B", "text":"B. バージョンの互換性", "answer":"incorrect"},
+        {"label":"C", "text":"C. メッセージサーバーのアクセシビリティ", "answer":"incorrect"},
+        {"label":"D", "text":"D. ネットワークセキュリティ", "answer":"correct"}
+    ]
+  },
+  "109":{
+    "quiz":"SAP統合ITSのメモリ消費量の詳細はどこにありますか？正解をお選びください。",
+    "option":[
+        {"label":"A", "text":"A. SAPシステムで、ICFサービス/sap/moni/its/memを使用する", "answer":"incorrect"},
+        {"label":"B", "text":"B. SAPシステムで、トランザクション/レポートSITSPMON（内部ITS：ステータス）を使用する", "answer":"correct"},
+        {"label":"C", "text":"C. オペレーティングシステムレベルで、コマンド「icmon」を使用する", "answer":"incorrect"},
+        {"label":"D", "text":"D.  SAPシステムで、トランザクションSMICM（ICMモニタ）を使用する", "answer":"incorrect"}
+    ]
+  },
+  "110":{
+    "quiz":"輸送管理システム（TMS）に関する次の説明のうち正しいものはどれですか？この質問には3つの正解があります。",
+    "option":[
+        {"label":"A", "text":"A. TMSが機能するためには、ユーザーID「TMSADM」がクライアント000のトランスポートドメインコントローラーに自動的に設定されます。", "answer":"correct"},
+        {"label":"B", "text":"B. TMSが機能するためには、同じ移送ドメインに属する各SAPシステムのクライアント000で、トランザクションSU01（ユーザ更新）でユーザID \"TMSADM\"を手動で登録する必要があります。", "answer":"incorrect"},
+        {"label":"C", "text":"C. TMSは、SAPシステムごとにRFC宛先を自動的に作成します。これは、トランザクションSM59（RFC宛先の照会/更新）を使用して表示することができます。", "answer":"correct"},
+        {"label":"D", "text":"D. 各SAPシステムのクライアントごとに、TMSはトランザクションSM59（RFC宛先の表示/更新）を使用して表示できるRFC宛先を作成します。", "answer":"incorrect"},
+        {"label":"E", "text":"E. トランスポートドメインコントローラーの構成中に、トランスポートドメイン制御データがトランスポートディレクトリ（サブディレクトリ \"bin\"）のファイルDOMAIN.CFGに書き込まれます。", "answer":"correct"}
+    ]
+  },
+  "111":{
     "quiz":"",
     "option":[
         {"label":"A", "text":"", "answer":"incorrect"},
