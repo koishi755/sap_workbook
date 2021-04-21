@@ -935,6 +935,51 @@
     ]
   },
   "101":{
+    "quiz":"ASABAPベースのSAPシステムの起動中に問題が発生しています。 セントラルインスタンスのワークプロセスが正常に開始されません。 問題を分析するために何を使用しますか？",
+    "option":[
+        {"label":"A", "text":"A. セントラルインスタンスのログディレクトリにあるファイル「TRACE」", "answer":"incorrect"},
+        {"label":"B", "text":"B. セントラルインスタンスの作業ディレクトリ内の開発者トレース", "answer":"correct"},
+        {"label":"C", "text":"C. trans \\logディレクトリのtpsystemlog", "answer":"incorrect"},
+        {"label":"D", "text":"D.セントラルインスタンスのディレクトリj2ee \\cluster\\dispatcher\\logにあるファイル \"defaultTrace.0.trc\"", "answer":"incorrect"}
+    ]
+  },
+  "102":{
+    "quiz":"SAP Solution Manager 4.0は、SLD（システムランドスケープディレクトリ）を使用できます。 SLDの目的に当てはまる記述はどれですか？",
+    "option":[
+        {"label":"A", "text":"A. SLDは、SAP NetWeaver Process Integration（PI）の出荷時にのみ使用できます。", "answer":"incorrect"},
+        {"label":"B", "text":"B. SLDは、システムランドスケープデータのランドスケープ全体の情報プロバイダーであり、多くのSAPアプリケーションの基盤として機能します。", "answer":"correct"},
+        {"label":"C", "text":"C. SLDはJavaアプリケーションです。 したがって、ABAPアプリケーションはを利用できません。", "answer":"incorrect"},
+        {"label":"D", "text":"D. SLDによって提供される情報", "answer":"incorrect"}
+    ]
+  },
+  "103":{
+    "quiz":"インスタンスに適したステートメントはどれですか？この質問には2つの正解があります。",
+    "option":[
+        {"label":"A", "text":"A. Oracle Real Application Clusters（RAC）を使用すると、1つのデータベースに2つ以上のインスタンスが提供されます。", "answer":"correct"},
+        {"label":"B", "text":"B. Oracle（バックグラウンド）プロセスとメモリバッファの組み合わせは、Oracleインスタンスと呼ばれます。", "answer":"incorrect"},
+        {"label":"C", "text":"C. 実行中のすべてのOracleデータベースは、Oracleインスタンスに関連付けられています。", "answer":"correct"},
+        {"label":"D", "text":"D. すべてのOracleデータベースには共有インスタンスが必要です。", "answer":"incorrect"}
+    ]
+  },
+  "104":{
+    "quiz":"UNIXのOPS $接続メカニズムを使用してOracleに接続するためにSAPワークプロセスで使用されるユーザーはどれですか。",
+    "option":[
+        {"label":"A", "text":"A. SYSTEM", "answer":"incorrect"},
+        {"label":"B", "text":"B. SYSDBA", "answer":"incorrect"},
+        {"label":"C", "text":"C. ORA<SID>", "answer":"incorrect"},
+        {"label":"D", "text":"D. <SID>ADM", "answer":"correct"}
+    ]
+  },
+  "105":{
+    "quiz":"すべてのインポート手順を実行するためにtpによって呼び出される追加のツール。(2つ正解)",
+    "option":[
+        {"label":"A", "text":"A. tp_abap.exe", "answer":"incorrect"},
+        {"label":"B", "text":"B. RDDIMPDP", "answer":"correct"},
+        {"label":"C", "text":"C. R3trans", "answer":"correct"},
+        {"label":"D", "text":"D. R3import", "answer":"incorrect"}
+    ]
+  },
+  "106":{
     "quiz":"",
     "option":[
         {"label":"A", "text":"", "answer":"incorrect"},
