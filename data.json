@@ -1025,6 +1025,99 @@
     ]
   },
   "111":{
+    "quiz":"RDBMSに適したステートメントはどれですか？この質問には3つの正解があります。",
+    "option":[
+        {"label":"A", "text":"A. マルチユーザー環境で大量のデータを管理して、多くのユーザーが同じデータに同時にアクセスできるようにします。", "answer":"correct"},
+        {"label":"B", "text":"B. 独自のユーザー認証の概念を使用して、セキュリティの観点からデータへのアクセスを制御する", "answer":"incorrect"},
+        {"label":"C", "text":"C. データ間の関係を維持する", "answer":"correct"},
+        {"label":"D", "text":"D. システム障害が発生した場合に、既知の一貫性のあるポイントにデータを回復する", "answer":"incorrect"},
+        {"label":"E", "text":"E. データ要求の処理に高いパフォーマンスを提供します", "answer":"correct"}
+    ]
+  },
+  "112":{
+    "quiz":"あなたは、ASABAPベースのSAPシステムランドスケープの移送管理者です。単一のSAPシステムのインポートキューで、一緒にインポートする複数の移送依頼を選択します。これらの移送依頼がインポートされるとどうなりますか？この質問には2つの正解があります。",
+    "option":[
+        {"label":"A", "text":"A. オブジェクトが複数の移送依頼に含まれている場合、最後の移送依頼のバージョンのみが有効化/生成されます（インポートキューの順序に従って）。", "answer":"correct"},
+        {"label":"B", "text":"B. オブジェクトが複数の移送依頼に含まれている場合、最初にシャドウリポジトリに保存されます。その後、シャドウリポジトリから選択したバージョンをアクティブ化/生成できます。", "answer":"incorrect"},
+        {"label":"C", "text":"C. オブジェクトが複数の移送依頼に含まれている場合、無条件（インポート）モードを使用して、どのオブジェクトバージョンを有効化/生成するかを指定することができます。", "answer":"incorrect"},
+        {"label":"D", "text":"D. 最初の移送依頼のオブジェクトが最初にインポートされ、有効化/生成され、次に2番目の移送依頼のオブジェクトというように続きます。", "answer":"incorrect"},
+        {"label":"E", "text":"E. 選択したすべての移送依頼のすべてのオブジェクトがマージされます", "answer":"correct"}
+    ]
+  },
+  "113":{
+    "quiz":"SAP NetWeaver ASのアーキテクチャに関する次の説明のうち正しいものはどれですか？この質問には2つの正解があります。",
+    "option":[
+        {"label":"A", "text":"A. AS Javaのセントラルサービスインスタンスは、AS Javaのインストールにのみ必要であり、AS ABAP + Java（デュアルスタック）のインストールには必要ありません。", "answer":"incorrect"},
+        {"label":"B", "text":"B. SAP NetWeaverベースのSAPシステムは、AS ABAP、AS Java、またはAS ABAP + Java（デュアルスタック）のいずれかを使用します。", "answer":"correct"},
+        {"label":"C", "text":"C. すべてのSAPNetWeaverベースのSAPシステムは、AS ABAP + Java（デュアルスタック）システムとしてインストールできます。", "answer":"incorrect"},
+        {"label":"D", "text":"D. AS ABAP + Java（デュアルスタック）では、ASJavaとASABAPは異なるデータベーススキーマを使用します。", "answer":"correct"}
+    ]
+  },
+  "114":{
+    "quiz":"オンラインデータベースのバックアップ中に、Oracleデータベースを内部的に整合性のある状態に復元できるようにするには、どのファイルを保存する必要がありますか？",
+    "option":[
+        {"label":"A", "text":"A. 表領域データファイル、データベース制御ファイル、およびデータベースパラメータファイル", "answer":"incorrect"},
+        {"label":"B", "text":"B. OracleオンラインREDOログファイルとデータベース制御ファイル", "answer":"correct"},
+        {"label":"C", "text":"C. Oracle実行可能ファイル、データベースパラメータファイル、およびテーブルスペースデータファイル", "answer":"incorrect"},
+        {"label":"D", "text":"D. オンラインバックアップ中に書き込まれたテーブルスペースデータファイル、データベース制御ファイル、およびすべてのデータベースREDOログ", "answer":"incorrect"}
+    ]
+  },
+  "115":{
+    "quiz":"ASABAPベースのシステムの3つのシステムランドスケープを実行しています。 ここで、クライアント000の移送管理システム（TMS）を使用して移送ドメインを設定します。添付のダイアログボックスで「保存」を押した後、どの設定手順が自動的に実行されますか？この質問には3つの正解があります",
+    "option":[
+        {"label":"A", "text":"A. トランスポートルートが作成されます。", "answer":"incorrect"},
+        {"label":"B", "text":"B. トランスポートディレクトリが作成されます。", "answer":"incorrect"},
+        {"label":"C", "text":"C. ユーザー「TMSADM」がクライアント000で作成されます", "answer":"correct"},
+        {"label":"D", "text":"D. トランスポートドメイン制御データはファイルDOMAIN.CFGに書き込まれます。", "answer":"correct"},
+        {"label":"E", "text":"E. RFC宛先が作成されます。", "answer":"correct"}
+    ]
+  },
+  "116":{
+    "quiz":"ビジネスAPI（BAPI）を使用して、SAPランドスケープでトランザクションをトリガおよび実行することができます。 BAPIに関する次の説明のうち正しいものはどれですか？この質問には2つの正解があります。",
+    "option":[
+        {"label":"A", "text":"A. BAPIによるデータ交換は、非同期RFCでのみ実行できます。", "answer":"incorrect"},
+        {"label":"B", "text":"B. BAPI通信には、中央のLDAPディレクトリサーバーへの接続が必要です。", "answer":"incorrect"},
+        {"label":"C", "text":"C. BAPIは特殊なリモート関数呼び出しです", "answer":"correct"},
+        {"label":"D", "text":"D. BAPIは、外部ソフトウェアをSAPシステムに接続するために使用できます", "answer":"correct"}
+    ]
+  },
+  "117":{
+    "quiz":"トランザクションRZ20（CCMSモニタセット）でCCMSモニタを開きました。添付のスクリーンショットを分析して、何を結論付けることができますか？",
+    "option":[
+        {"label":"A", "text":"A. ホストtwdf1921上のSAPシステムDEVのインスタンス00および01が実行されていません。", "answer":"incorrect"},
+        {"label":"B", "text":"B. ホストtwdf1921上のSAPシステムDEVのインスタンス00および01は実行されていますが、CCMSからは到達できません。", "answer":"incorrect"},
+        {"label":"C", "text":"C. MTE「twdf1921_DEV_00」の下のすべてのノードのステータスは「赤」です。", "answer":"incorrect"},
+        {"label":"D", "text":"D. MTE「twdf1921_DEV_00」の下の少なくとも1つのノードのステータスが「赤」です。", "answer":"correct"}
+    ]
+  },
+  "118":{
+    "quiz":"SAP ECC 6.0システムのインストール中にインストールされるABAPソフトウェアコンポーネントはどれですか？ これらは、[システム]-> [SAP ECC6.0システムのステータス]にあります。この質問には2つの正解があります。",
+    "option":[
+        {"label":"A", "text":"A. SAP_CRM", "answer":"incorrect"},
+        {"label":"B", "text":"B. SAP_HR", "answer":"correct"},
+        {"label":"C", "text":"C. SAP_APPL ", "answer":"correct"}
+    ]
+  },
+  "119":{
+    "quiz":"AS ABAP + Javaベースのシステムの構成にSAPNet Weaver Administrator（NWA）を使用する場合、正しい説明はどれですか。",
+    "option":[
+        {"label":"A", "text":"A. SAP Net Weaver Administratorでは、Java仮想マシン（JVM）のプロパティを表示できます。", "answer":"correct"},
+        {"label":"B", "text":"B. SAP Net Weaver Administratorでは、ASABAPのログオングループを更新することができます。", "answer":"incorrect"},
+        {"label":"C", "text":"C. SAP Net Weaver Administratorでは、以下のプロファイルパラメータを更新することができます。", "answer":"incorrect"},
+        {"label":"D", "text":"D. インスタンスプロファイル。", "answer":"incorrect"}
+    ]
+  },
+  "120":{
+    "quiz":"SAP NetWeaver AS 7.00ABAPおよびJavaStackのどのツールが、システムランドスケープディレクトリ（SLD）での登録プロセスを担当しますか？この質問には2つの正解があります。",
+    "option":[
+        {"label":"A", "text":"A. ABAPベースのSAPシステムを登録するメカニズム全体がイベントトリガーされます。 構成の変更が発生すると、バックグラウンドジョブがSLDに通知します。", "answer":"incorrect"},
+        {"label":"B", "text":"B.トランザクションRZ21により、SLD接続の設定が可能になります。", "answer":"incorrect"},
+        {"label":"C", "text":"C. AS Javaに基づくSAPシステムは、VisualAdministratorのSLDデータサプライヤサービスを使用してSLDに登録できます。", "answer":"correct"},
+        {"label":"D", "text":"D. SLDに通知する主なABAPトランザクションはRZ70です。 SAPゲートウェイが関係しています。", "answer":"correct"},
+        {"label":"E", "text":"E. ASJavaに基づくSAPシステムはSLDに登録できません。", "answer":"incorrect"}
+    ]
+  },
+  "121":{
     "quiz":"",
     "option":[
         {"label":"A", "text":"", "answer":"incorrect"},
