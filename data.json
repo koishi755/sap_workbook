@@ -1118,6 +1118,101 @@
     ]
   },
   "121":{
+    "quiz":"SAP Web Dispatcherは、SAPシステムでインターネット要求を配布するために使用できるソフトウェアです。 SAP Webディスパッチャはどのように実行されますか？",
+    "option":[
+        {"label":"A", "text":"A. HTTPサービスツリー（トランザクションSICF）で有効化されるサービスです。", "answer":"correct"},
+        {"label":"B", "text":"B. RFC宛先（トランザクションSM59）にインストールおよび設定されるプログラムです。", "answer":"incorrect"},
+        {"label":"C", "text":"C. インターネットからアクセスできるマシンにインストールして起動するプログラムです。", "answer":"incorrect"}
+    ]
+  },
+  "122":{
+    "quiz":"開発システムのSAPシステムアップグレード中にトランザクションSPDD（変更調整ディクショナリ）を使用してABAPディクショナリの変更調整を実行する場合、次の説明のうち正しいものはどれですか。この質問には2つの正解があります。",
+    "option":[
+        {"label":"A", "text":"A. トランザクションSPDD（変更調整ディクショナリ）で調整する必要がある可能性のあるオブジェクトは、たとえば、ドメイン、データ要素、およびテーブル定義です。", "answer":"correct"},
+        {"label":"B", "text":"B. SPDD（Modification Adjust Dictionary）で調整する必要のあるオブジェクトは、たとえば、ビューやレポートです。", "answer":"incorrect"},
+        {"label":"C", "text":"C. トランザクションSPDDによる修正調整（修正調整）", "answer":"correct"},
+        {"label":"D", "text":"D. ディクショナリ）は、顧客が標準のABAPディクショナリオブジェクトを変更したときのデータ損失を回避するために、アップグレード中に実行されます。", "answer":"incorrect"},
+        {"label":"E", "text":"E. 顧客名範囲の顧客開発レポートは、アップグレード中にトランザクションSPDDで調整されます。", "answer":"incorrect"},
+        {"label":"F", "text":"F. ABAPディクショナリの変更調整は、アップグレード後に実行されます。", "answer":"incorrect"}
+    ]
+  },
+  "123":{
+    "quiz":"トランザクションSICF（サービス更新）でICFサービスを分析しています。 ICFサービスは青色のフォントカラーで表示されます。 この色は何を示していますか？",
+    "option":[
+        {"label":"A", "text":"A. ICFサービスがアクティブです。 明示的にアクティブ化されています。", "answer":"incorrect"},
+        {"label":"B", "text":"B. ICFサービスは非アクティブです。 優れたICFサービスが非アクティブ化されたため、アクティブから非アクティブに切り替えられました。", "answer":"correct"},
+        {"label":"C", "text":"C. ICFサービスがアクティブです。 下位のICFサービスがアクティブ化されたため、非アクティブからアクティブに切り替えられました。", "answer":"incorrect"},
+        {"label":"D", "text":"D. ICFサービスは非アクティブです。 明示的に非アクティブ化されています。", "answer":"incorrect"}
+    ]
+  },
+  "124":{
+    "quiz":"動作モードを設定するときに、リストされている手順をどのような順序で実行する必要がありますか？",
+    "option":[
+        {"label":"A", "text":"A. 1.操作モードの作成 2.インスタンスの割り当て 3.ワークプロセスの分散 4.タイムテーブルの更新", "answer":"correct"},
+        {"label":"B", "text":"B. 1.操作モードの作成 2.タイムテーブルの更新 3.ワークプロセスの分散 4.インスタンスの割り当て", "answer":"incorrect"},
+        {"label":"C", "text":"C. 1.操作モードの作成 2.ワークプロセスの分散 3.タイムテーブルの更新 4.インスタンスの割り当て", "answer":"incorrect"},
+        {"label":"D", "text":"D. 1.操作モードの作成 2.ワークプロセスの分散 3.インスタンスの割り当て 4.タイムテーブルの更新", "answer":"incorrect"}
+    ]
+  },
+  "125":{
+    "quiz":"AS ABAPベースのSAPシステムでHTTPプロトコルを使用してWebシナリオをサポートする場合の前提条件は何ですか？ この質問には2つの正解があります。",
+    "option":[
+        {"label":"A", "text":"A. Internet CommunicationManagerを起動する必要があります。", "answer":"correct"},
+        {"label":"B", "text":"B. HTTPプロトコル用に論理ポートを定義する必要があります。", "answer":"incorrect"},
+        {"label":"C", "text":"C. サーバーポートはHTTPプロトコル用に定義する必要があります。", "answer":"correct"},
+        {"label":"D", "text":"D. SAP WebDispatcherを起動する必要があります。", "answer":"incorrect"}
+    ]
+  },
+  "126":{
+    "quiz":"トランザクションRZ20は何に使用できますか？",
+    "option":[
+        {"label":"A", "text":"A. データベースのバックアップ", "answer":"incorrect"},
+        {"label":"B", "text":"B. データの更新", "answer":"incorrect"},
+        {"label":"C", "text":"C. データベースとSAPシステムの監視", "answer":"correct"},
+        {"label":"D", "text":"D. ファイアウォールの構成と監視", "answer":"incorrect"}
+    ]
+  },
+  "127":{
+    "quiz":"OPS $ connect接続メカニズムに関して正しい説明は次のうちどれですか？この質問には2つの正解があります。",
+    "option":[
+        {"label":"A", "text":"A. Oracleデータベースに接続するすべてのユーザーにはOPS $ connect認証が必要です。", "answer":"incorrect"},
+        {"label":"B", "text":"B. OPS $ connectを使用すると、R / 3saposcolプロセスがOracleデータベースと通信してデータを交換できます。", "answer":"incorrect"},
+        {"label":"C", "text":"C. OPS $ connectは、OracleツールSQL * Plusを使用せずに、実行者がデータベースを管理できるようにするOracleコマンドです。", "answer":"incorrect"},
+        {"label":"D", "text":"D. BR * Toolsは、デフォルトでOPS $ connectを使用してデータベースに接続します。", "answer":"correct"},
+        {"label":"E", "text":"E. OPS $ connect認証により、オペレーティングシステムユーザーはパスワードの入力を求められることなくデータベースに接続できます。", "answer":"correct"}
+    ]
+  },
+  "128":{
+    "quiz":"ABAP変更および移送システムを使用して、非ABAPオブジェクトを移送するとします。 どのステートメントが正しいですか？正解は３つ",
+    "option":[
+        {"label":"A", "text":"A. トランスポートドメインコントローラは、SAP NetWeaver AS 7.00SPスタック12以降に基づいている必要があります。", "answer":"correct"},
+        {"label":"B", "text":"B. SAP NetWeaver PortalコンテンツをCTSで転送する場合、SAP NetWeaverPortalランタイムSAPシステムはASJava 7.00SPスタック12以降に基づいている必要があります。", "answer":"incorrect"},
+        {"label":"C", "text":"C. トランザクションSTMSで非ABAPSAPシステムを定義する必要があり、これらのSAPシステムのtpパラメータを正しく維持する必要があります。", "answer":"correct"},
+        {"label":"D", "text":"D. 問題の非ABAPSAPシステム間の移送ルートを定義する必要があります。", "answer":"correct"},
+        {"label":"E", "text":"E. CTS Deploy Webサービスは、トランザクションSTMSで定義されているすべての非ABAPSAPシステムで設定する必要があります。", "answer":"incorrect"}
+    ]
+  },
+  "129":{
+    "quiz":"（ABAPベースの）SAPランドスケープで移送ドメインコントローラを定義すると、どの機能が自動的に作成されますか？４つ正解",
+    "option":[
+        {"label":"A", "text":"A. TMS構成は、データベースとファイルシステムに保存されます。", "answer":"incorrect"},
+        {"label":"B", "text":"B. TMSに必要なRFC宛先が生成されます。", "answer":"incorrect"},
+        {"label":"C", "text":"C. 移送制御プログラムtpの移送プロファイルがファイルシステムに生成されます。", "answer":"incorrect"},
+        {"label":"D", "text":"D. 移送制御プログラムtpの移送プロファイルがデータベースに生成されます。", "answer":"correct"},
+        {"label":"E", "text":"E. ユーザーTMSADMが作成されます。", "answer":"incorrect"}
+    ]
+  },
+  "130":{
+    "quiz":"AS ABAPベースのSAPシステムのバックグラウンドジョブ内のステップとして、トランザクションSM36（バックグラウンドジョブの定義）で何をスケジュールできますか？この質問には3つの正解があります。",
+    "option":[
+        {"label":"A", "text":"A. External programs", "answer":"correct"},
+        {"label":"B", "text":"B. ABAP transactions", "answer":"incorrect"},
+        {"label":"C", "text":"C. Function modules", "answer":"incorrect"},
+        {"label":"D", "text":"D. 実行可能なABAPプログラム", "answer":"correct"},
+        {"label":"E", "text":"E. 外部コマンド", "answer":"correct"}
+    ]
+  },
+  "131":{
     "quiz":"",
     "option":[
         {"label":"A", "text":"", "answer":"incorrect"},
