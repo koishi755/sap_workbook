@@ -1213,6 +1213,95 @@
     ]
   },
   "131":{
+    "quiz":"ConfigToolツールとVisualAdministratorツールの両方に正しい説明はどれですか。",
+    "option":[
+        {"label":"A", "text":"A. すべての構成設定では、システムを再起動する必要があります。", "answer":"incorrect"},
+        {"label":"B", "text":"B. グローバルに行われた構成設定のみがシステムの再起動を必要とします。", "answer":"incorrect"},
+        {"label":"C", "text":"C. システムのすべてのディスパッチャノードに対してグローバルに、または特定のノードごとにローカルに構成設定を維持する可能性があります。", "answer":"correct"}
+    ]
+  },
+  "132":{
+    "quiz":"Oracleデータベースのアラートログを分析し、「テーブルスペースを拡張できません」というエラーメッセージを見つけます。 この問題を解決するために何ができますか？この質問には3つの正解があります。",
+    "option":[
+        {"label":"A", "text":"A. 表領域の少なくとも1つのデータファイルを「自動拡張可能」（AUTOEXTENDON）に設定します。", "answer":"correct"},
+        {"label":"B", "text":"B. 新しいデータファイルを追加します。", "answer":"correct"},
+        {"label":"C", "text":"C. より多くの空き領域がある別のテーブルスペースにデータファイルを割り当てます。", "answer":"incorrect"},
+        {"label":"D", "text":"D. テーブルスペースのデータファイルを固定サイズで拡大します。", "answer":"correct"},
+        {"label":"E", "text":"E. 新しいテーブルスペースを作成します。", "answer":"incorrect"}
+    ]
+  },
+  "133":{
+    "quiz":"ASABAPベースのSAPシステムのユーザマスタレコードに関する次の説明のうち正しいものはどれですか。この質問には2つの正解があります。",
+    "option":[
+        {"label":"A", "text":"A. 1つ以上のロールをユーザマスタレコードに割り当てることができます。", "answer":"correct"},
+        {"label":"B", "text":"B. 権限オブジェクトをユーザマスタレコードに割り当てることができます。", "answer":"incorrect"},
+        {"label":"C", "text":"C. 1つ以上の権限プロファイルをユーザマスタレコードに割り当てることができます。", "answer":"correct"},
+        {"label":"D", "text":"D. 単一の権限値をユーザマスタレコードに割り当てることができます。", "answer":"incorrect"}
+    ]
+  },
+  "134":{
+    "quiz":"ソフトウェアコンポーネントSAPECC 6.0は、次のうちどれで実行されますか？",
+    "option":[
+        {"label":"A", "text":"A. SAP NetWeaver Application Server 7.00", "answer":"correct"},
+        {"label":"B", "text":"B. SAPベーシス4.6D", "answer":"incorrect"},
+        {"label":"C", "text":"C. SAPWebアプリケーションサーバー6.40", "answer":"incorrect"},
+        {"label":"D", "text":"D. SAPNetWeaverアプリケーションサーバー7.10", "answer":"incorrect"}
+    ]
+  },
+  "135":{
+    "quiz":"ASJavaベースのSAPシステムの管理ユーザーのパスワードを変更しました。 このパスワードの変更に関連する追加の推奨タスクはありますか？",
+    "option":[
+        {"label":"A", "text":"A. はい-構成ツールを使用してセキュアストアのコンテンツを変更することをお勧めします。", "answer":"correct"},
+        {"label":"B", "text":"B. いいえ-管理者のパスワードを変更するだけで十分です。", "answer":"incorrect"},
+        {"label":"C", "text":"C. はい-構成ツールを使用してそれぞれのデータベースエントリを変更することをお勧めします。", "answer":"incorrect"},
+        {"label":"D", "text":"D. はい-コマンドライン「icmon-a」を使用してセキュアストアのコンテンツを変更することをお勧めします。", "answer":"incorrect"}
+    ]
+  },
+  "136":{
+    "quiz":"AS Java 7.0に基づくSAPシステムを起動するときに、通常観察できるプロセス開始シーケンスは次のうちどれですか？ 指定されたシーケンスは「完全」である必要はなく、選択されたプロセスの時系列シーケンスのみがここで考慮されることに注意してください。",
+    "option":[
+        {"label":"A", "text":"A. 1. Database Process(es), 2. Dispatcher, 3. Enqueue Server", "answer":"incorrect"},
+        {"label":"B", "text":"B. 1. Enqueue Server, 2. Server Process, 3. Database Process(es)", "answer":"incorrect"},
+        {"label":"C", "text":"C. 1. Database Process(es), 2. Message Server, 3. Dispatcher", "answer":"correct"}
+    ]
+  },
+  "137":{
+    "quiz":"DBACOCKPITで自動テーブルメンテナンス（ATM）を構成することにより、どのパフォーマンス最適化タスクを実行できますか？この質問には2つの正解があります。",
+    "option":[
+        {"label":"A", "text":"A. しきい値に基づいてテーブルをアーカイブします。", "answer":"incorrect"},
+        {"label":"B", "text":"B. テーブルの完全なオンライン再編成「REORGREBUILD」を実行します。", "answer":"incorrect"},
+        {"label":"C", "text":"C. 行転送を使用してテーブルを再編成します。", "answer":"correct"},
+        {"label":"D", "text":"D. インデックス統計を更新します。", "answer":"correct"}
+    ]
+  },
+  "138":{
+    "quiz":"AS ABAPベースのSAPシステムのプロファイルパラメータをどのように変更できますか？この質問には2つの正解があります。",
+    "option":[
+        {"label":"A", "text":"A. ABAP設定ツールの使用", "answer":"incorrect"},
+        {"label":"B", "text":"B. トランザクションRZ11の使用（プロファイルパラメータの更新）", "answer":"correct"},
+        {"label":"C", "text":"C. トランザクションRZ10の使用（プロファイルの編集）", "answer":"correct"},
+        {"label":"D", "text":"D. トランザクションRZ03（CCMSコントロールパネル）の使用", "answer":"incorrect"}
+    ]
+  },
+  "139":{
+    "quiz":"トランザクション移送管理システム（STMS）を実行し、移送ドメインのSAPシステムのインポートキューに切り替えます。 ここでは、[すべてのリクエストをインポート]ボタンが表示されていませんが、[リクエストをインポート]ボタンは使用できます。この動作の最も可能性の高い理由は何ですか？",
+    "option":[
+        {"label":"A", "text":"A. PSMシステムのトランスポート戦略はシングルトランスポートに設定されています。", "answer":"correct"},
+        {"label":"B", "text":"B. PSMシステムを指す統合ルートはありません。", "answer":"incorrect"},
+        {"label":"C", "text":"C. PSMは仮想システムです。", "answer":"incorrect"},
+        {"label":"D", "text":"D. このシステムへのインポートを待機している移送依頼はありません。", "answer":"incorrect"}
+    ]
+  },
+  "140":{
+    "quiz":"クラス「A」ジョブのワークプロセス予約の結果は次のうちどれですか？この質問には2つの正解があります。",
+    "option":[
+        {"label":"A", "text":"A. 専用のバックグラウンドワークプロセスは、クラス「A」のジョブ用に予約されています。", "answer":"incorrect"},
+        {"label":"B", "text":"B. クラス「A」のジョブは、計画された開始時間に高い確率で開始されます。", "answer":"correct"},
+        {"label":"C", "text":"C. クラス「B」およびクラス「C」のジョブでは遅延が発生する可能性があります。", "answer":"correct"},
+        {"label":"D", "text":"D. SAPシステムのすべてのバックグラウンドワークプロセスがクラス「A」ジョブ用に予約されている場合、クラスのジョブ「B」と「C」は自動的にクラス「A」に昇格します。", "answer":"incorrect"}
+    ]
+  },
+  "141":{
     "quiz":"",
     "option":[
         {"label":"A", "text":"", "answer":"incorrect"},
