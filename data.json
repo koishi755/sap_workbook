@@ -1393,6 +1393,96 @@
     ]
   },
   "151":{
+    "quiz":"ASJavaベースのSAPシステムを実行しています。 VisualAdministratorを使用してローカル設定を維持しています。 これらの設定はすぐに有効になります。 システムを次に再起動した後も、新しい設定が引き続き有効であることを確認する必要があります。 この要件をどのように満たしますか？正解をお選びください。",
+    "option":[
+        {"label":"A", "text":"A. このシナリオでは、これ以上の手順は必要ありません。", "answer":"correct"},
+        {"label":"B", "text":"B. [プロファイルでアクティブ化]チェックボックスをオンにします。", "answer":"incorrect"},
+        {"label":"C", "text":"C. Visual Administratorを使用して、グローバル設定で同じ設定を維持します。", "answer":"incorrect"},
+        {"label":"D", "text":"D. 構成ツールで同じ設定を維持します。", "answer":"incorrect"}
+    ]
+  },
+  "152":{
+    "quiz":"どのステートメントが正しいですか？ （２つの答えが当てはまります）",
+    "option":[
+        {"label":"A", "text":"A. Webブラウザーは、ASJavaの標準ユーザーインターフェースです。", "answer":"incorrect"},
+        {"label":"B", "text":"B. 各サーバーは共通のバッファーで処理します。", "answer":"incorrect"},
+        {"label":"C", "text":"C. マネージャはJavaEnterpriseRuntimeを形成します。", "answer":"incorrect"},
+        {"label":"D", "text":"D. AS Javaプロセスは多くのスレッドで構成されており、すべてのリクエストを1つのスレッドで処理できます。", "answer":"correct"},
+        {"label":"E", "text":"E. AS Javaのノードは、マネージャーおよびサービスと呼ばれるさまざまな機能モジュールに分割されています。", "answer":"correct"}
+    ]
+  },
+  "153":{
+    "quiz":"LDAPを介したASABAPベースのシステムのユーザ管理とディレクトリサーバ間の接続を設定しました。 これらの環境間でユーザーデータの同期をどこから開始できますか？",
+    "option":[
+        {"label":"A", "text":"A. ユーザーが作成された環境から", "answer":"incorrect"},
+        {"label":"B", "text":"B. 常にSAPシステムから", "answer":"correct"},
+        {"label":"C", "text":"C. 常にDirectoryServerから", "answer":"incorrect"},
+        {"label":"D", "text":"D. トランザクションLDAP（ディレクトリサービス接続）でのカスタマイズで定義されているとおり", "answer":"incorrect"}
+    ]
+  },
+  "154":{
+    "quiz":"この図は、SAPシステムで中止されたトランザクションのABAPショートダンプを示しています。 次の説明のうち正しいものはどれですか？この質問には2つの正解があります。",
+    "option":[
+        {"label":"A", "text":"A. このプログラムでバックグラウンド処理が可能な場合は、SAPシステムのバッチジョブでそれぞれのプログラムを実行することにより、エラーを回避することができます。", "answer":"correct"},
+        {"label":"B", "text":"B. エラーは、拡張メモリを超えたSAPシステムのトランザクションが原因で発生しました", "answer":"incorrect"},
+        {"label":"C", "text":"C. SAPシステムの各トランザクションのメモリ使用量を減らすことで、エラーを回避できます。", "answer":"incorrect"},
+        {"label":"D", "text":"D. エラーは、SAPシステムのダイアログワークプロセスで最大ランタイムを超えたトランザクションが原因で発生しました。", "answer":"correct"},
+        {"label":"E", "text":"E. エラーは、SAPシステムのバックグラウンドワークプロセスで最大ランタイムを超えたトランザクションが原因で発生しました。", "answer":"incorrect"}
+    ]
+  },
+  "155":{
+    "quiz":"AS ABAPベースのSAPシステムの更新中に、SAP Software Update Manager（SUM）はSPAMバージョンチェックを実行します。このチェックの結果に基づいて、どのオプションが提供されますか？この質問には2つの正解があります。",
+    "option":[
+        {"label":"A", "text":"A.インポート変更調整トランスポート", "answer":"incorrect"},
+        {"label":"B", "text":"B.エキスパートモードに切り替えます", "answer":"incorrect"},
+        {"label":"C", "text":"C.スパムの更新をスキップする", "answer":"correct"},
+        {"label":"D", "text":"D。「... EPS\\in」ディレクトリで新しいSPAMバージョンを検索します", "answer":"correct"}
+    ]
+  },
+  "156":{
+    "quiz":"以下にリストされているプログラミング言語のうち、プラットフォームに依存せずに実装されているのはどれですか？",
+    "option":[
+        {"label":"A", "text":"A. C/C++", "answer":"incorrect"},
+        {"label":"B", "text":"B. ABAP", "answer":"correct"},
+        {"label":"C", "text":"C. Java", "answer":"incorrect"},
+        {"label":"D", "text":"D. Fortran", "answer":"incorrect"}
+    ]
+  },
+  "157":{
+    "quiz":"フロントエンドをSAPシステムに接続するために必要なネットワーク帯域幅を決定するとき（WAN接続を使用）、次のうちどれを考慮する必要がありますか？この質問には3つの正解があります。",
+    "option":[
+        {"label":"A", "text":"A. この回線を使用して接続しているユーザーの数。", "answer":"correct"},
+        {"label":"B", "text":"B. SAPの高度なオンラインデータ圧縮テクノロジー（SAP ODCT）を使用して、ネットワークの負荷を最小限に抑えます。この機能に必要なソフトウェアは別売りです。", "answer":"incorrect"},
+        {"label":"C", "text":"C. 同じ接続を使用する「SAPに関連しない」トラフィック（オフィス文書など）の量。", "answer":"correct"},
+        {"label":"D", "text":"D. リモート接続の「低速接続」フラグをオンにすると便利な場合があります。", "answer":"correct"}
+    ]
+  },
+  "158":{
+    "quiz":"Oracleでは、一部の初期化パラメータの値を動的に設定、変更、または削除（デフォルトに戻す）することはできません。",
+    "option":[
+        {"label":"A", "text":"いいえ", "answer":"correct"},
+        {"label":"B", "text":"はい", "answer":"incorrect"}
+    ]
+  },
+  "159":{
+    "quiz":"あなたの会社は、ASABAPベースのSAPシステムを実行しています。 従業員はSAPGUI forWindowsを使用します。 SAPシステムを使用しているすべての従業員に対してフロントエンド印刷を有効にする必要があります。 この要件を満たすために可能な手順は何ですか？",
+    "option":[
+        {"label":"A", "text":"A. ホストスプールアクセス方法 \"G\"を使用して出力デバイスを作成し、それにホストプリンタ \"__DEFAULT\"を割り当てます。", "answer":"correct"},
+        {"label":"B", "text":"B. ホストスプールアクセス方法 \"S\"を使用して出力デバイスを登録し、デバイスタイプ \"SAP_SPRINT\"を割り当てます。", "answer":"incorrect"},
+        {"label":"C", "text":"C. ローカルフロントエンドプリンターごとに、アクセス方法「LOCL」を使用して出力デバイスを作成します。", "answer":"incorrect"},
+        {"label":"D", "text":"D. 出力デバイス「TemSe」と、出力要求をローカルPCに定期的にリダイレクトするバッチジョブを作成します。", "answer":"incorrect"}
+    ]
+  },
+  "160":{
+    "quiz":"IMGが何であるか、または何をするかについての正しい説明を選択してください。正解は２つ",
+    "option":[
+        {"label":"A", "text":"A. カスタマイズトランザクションを提供します。", "answer":"correct"},
+        {"label":"B", "text":"B. すべてのカスタマイズアクティビティを実行する必要がある場所です。", "answer":"incorrect"},
+        {"label":"C", "text":"C. SAPシステムのカスタマイズに必要なすべての情報へのオフラインアクセスを提供します。", "answer":"incorrect"},
+        {"label":"D", "text":"D. プロジェクト管理ツールを提供します。", "answer":"correct"}
+    ]
+  },
+  "161":{
     "quiz":"",
     "option":[
         {"label":"A", "text":"", "answer":"incorrect"},
