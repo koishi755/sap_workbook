@@ -1302,6 +1302,97 @@
     ]
   },
   "141":{
+    "quiz":"操作モードと作業プロセスの配布画面を設定しているときに、他の作業プロセスを減らすことなく、1つ増やすことができる作業プロセスはどれですか。この質問には3つの正解があります。",
+    "option":[
+        {"label":"A", "text":"A. 予約済みのワークプロセス", "answer":"correct"},
+        {"label":"B", "text":"B. スプール作業プロセス", "answer":"incorrect"},
+        {"label":"C", "text":"C. ワークプロセスをエンキューする", "answer":"incorrect"},
+        {"label":"D", "text":"D. ダイアログワークプロセス", "answer":"correct"},
+        {"label":"E", "text":"E. ワークプロセスを更新する", "answer":"correct"}
+    ]
+  },
+  "142":{
+    "quiz":"AS ABAP + Java（デュアルスタック）に基づくSAPシステムをインストールしました。 デフォルトのUME構成は変更されていません。 ABAPとJava認証の概念の間にはどのような関係がありますか？この質問には2つの正解があります。",
+    "option":[
+        {"label":"A", "text":"A. ABAPユーザーのABAPグループへの割り当ては、UMEユーザーのUMEロールへの割り当てとして表示されます。", "answer":"incorrect"},
+        {"label":"B", "text":"B. ABAPロールはUMEグループとして表示されます。", "answer":"correct"},
+        {"label":"C", "text":"C. ABAP許可プロファイルはUMEセキュリティロールとして表示されます。", "answer":"incorrect"},
+        {"label":"D", "text":"D. ABAPユーザーのABAPロールへの割り当ては、UMEユーザーのUMEグループへの割り当てとして表示されます。", "answer":"correct"}
+    ]
+  },
+  "143":{
+    "quiz":"ユーザー名/パスワードを対話形式で入力したくない場合は、SQLPLUSを呼び出すときの最初のパラメータとしてユーザー名/パスワードを入力できます（例：sqlplussystem / manager）。",
+    "option":[
+        {"label":"A", "text":"いいえ", "answer":"incorrect"},
+        {"label":"B", "text":"はい", "answer":"correct"}
+    ]
+  },
+  "144":{
+    "quiz":"Oracleデータベースのオンラインバックアップに関して正しい説明は次のうちどれですか。正解をお選びください。",
+    "option":[
+        {"label":"A", "text":"A. データベースはアーカイブログモードで実行されている必要があります。", "answer":"correct"},
+        {"label":"B", "text":"B. データベースは、オンラインバックアップ中にオンラインREDOログファイルに書き込みません。", "answer":"incorrect"},
+        {"label":"C", "text":"C. オンラインデータベースバックアップは、Oracleではサポートされていません。", "answer":"incorrect"},
+        {"label":"D", "text":"D. 完全なオンラインバックアップは、テーブルスペースデータファイルと制御ファイルで構成されます。これらはすべて、データベースを一貫性のある状態に復元するために必要です。", "answer":"incorrect"},
+        {"label":"E", "text":"E. ユーザーはデータの読み取りのみが可能で、バックアップの実行中はデータを入力できません。", "answer":"incorrect"}
+    ]
+  },
+  "145":{
+    "quiz":"インポートする移送依頼を選択するためのオプションはどれですか？この質問には4つの正解があります。",
+    "option":[
+        {"label":"A", "text":"A. 特定のプロジェクトからの移送依頼をフィルタリングし、それらを1つのステップで一緒にインポートすることができます（トランザクションSPRO_ADMINでCTS機能を有効化した場合）。", "answer":"correct"},
+        {"label":"B", "text":"B. 単一の移送依頼を複数のSAPシステム（QA1やQA2など）に1つのステップでインポートすることができます。", "answer":"incorrect"},
+        {"label":"C", "text":"C. 1つのステップでインポートする複数の個別移送依頼を選択することができます。", "answer":"correct"},
+        {"label":"D", "text":"D. TMS設定に応じて、[すべてインポート]ボタンを使用して、インポートキューからすべてのインポート可能な要求を1つのステップでインポートできます。", "answer":"correct"},
+        {"label":"E", "text":"E. インポートする単一の移送依頼を選択することができます", "answer":"correct"}
+    ]
+  },
+  "146":{
+    "quiz":"次のトランザクションのうち、SAPシステムでSQLステートメントのトレースを有効化できるのはどれですか？正解は２つ",
+    "option":[
+        {"label":"A", "text":"A. パフォーマンストレース", "answer":"correct"},
+        {"label":"B", "text":"B. システムログ", "answer":"incorrect"},
+        {"label":"C", "text":"C. （SAP）システムトレース", "answer":"correct"},
+        {"label":"D", "text":"D. データベースのパフォーマンス分析", "answer":"incorrect"}
+    ]
+  },
+  "147":{
+    "quiz":"SAPスプールシステムのオブジェクトTemSeに関して、次の説明のうち正しいものはどれですか。この質問には2つの正解があります。",
+    "option":[
+        {"label":"A", "text":"A. TemSeは、たとえば、スプールデータを保存します。", "answer":"correct"},
+        {"label":"B", "text":"B. TemSeは、常にスプール要求をデータベースに保存します。", "answer":"incorrect"},
+        {"label":"C", "text":"C. インスタンスパラメータ「rspo / store_location」は、TemSeデータが保存される場所を決定します。", "answer":" correct"},
+        {"label":"D", "text":"D. TemSeは常にオペレーティングシステムファイルです。", "answer":"incorrect"}
+    ]
+  },
+  "148":{
+    "quiz":"ABAPプログラムが外部プログラムを呼び出すときに使用されるオペレーティングシステムレベルでのプログラムの名前は何ですか？",
+    "option":[
+        {"label":"A", "text":"A. sapxpg", "answer":"correct"},
+        {"label":"B", "text":"B. sap_ext_prog", "answer":"incorrect"},
+        {"label":"C", "text":"C. disp+work", "answer":"incorrect"},
+        {"label":"D", "text":"D. saposcol", "answer":"incorrect"}
+    ]
+  },
+  "149":{
+    "quiz":"RACは、以下を提供することにより、従来のフェイルオーバーソリューションの制限を克服します...この質問には2つの正解があります。",
+    "option":[
+        {"label":"A", "text":"A. 高速リカバリ", "answer":"correct"},
+        {"label":"B", "text":"B. 負荷分散", "answer":"incorrect"},
+        {"label":"C", "text":"C. 並行処理", "answer":"correct"},
+        {"label":"D", "text":"D. ノードまたはネットワークの障害の高速で信頼性の高い検出", "answer":"incorrect"}
+    ]
+  },
+  "150":{
+    "quiz":"ASJavaベースのSAPシステムのIdentityManagementツールを使用して、User Management Engine（UME）の原則を維持しています。次のうち、UMEグループを直接割り当てることができるのはどれですか？この質問には2つの正解があります。",
+    "option":[
+        {"label":"A", "text":"A. JEEセキュリティの役割", "answer":"incorrect"},
+        {"label":"B", "text":"B. UMEアクション", "answer":"incorrect"},
+        {"label":"C", "text":"C. Javaユーザー", "answer":"correct"},
+        {"label":"D", "text":"D. UMEの役割", "answer":"correct"}
+    ]
+  },
+  "151":{
     "quiz":"",
     "option":[
         {"label":"A", "text":"", "answer":"incorrect"},
