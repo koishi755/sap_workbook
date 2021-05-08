@@ -1483,6 +1483,98 @@
     ]
   },
   "161":{
+    "quiz":"ABAP移送依頼のインポートステップを説明するプロセスシーケンスはどれですか？",
+    "option":[
+        {"label":"A", "text":"A. ABAPディクショナリインポート-> ABAPディクショナリアクティベーション->メインインポート-> ABAPプログラムおよび画面の生成", "answer":"correct"},
+        {"label":"B", "text":"B. メインインポート->ユーザ定義アクティビティ（XPRA）の実行-> ABAPディクショナリの有効化-> ABAPプログラムおよび画面の生成", "answer":"incorrect"},
+        {"label":"C", "text":"C. メインインポート-> ABAPプログラムおよび画面の生成-> ABAPディクショナリインポート-> ABAPディクショナリアクティベーション", "answer":"incorrect"},
+        {"label":"D", "text":"D. ABAPディクショナリインポート->ユーザ定義アクティビティ（XPRA）の実行->メインインポート-> ABAPディクショナリの有効化", "answer":"incorrect"}
+    ]
+  },
+  "162":{
+    "quiz":"ASABAPベースのSAPシステムを実行しています。 動作モードを使用して達成できるのは次のうちどれですか？この質問には2つの正解があります",
+    "option":[
+        {"label":"A", "text":"A. RFC通信用に予約されているワークプロセスの数を定義することができます。", "answer":"incorrect"},
+        {"label":"B", "text":"B. クラス「A」のジョブ用に予約されているバックグラウンドワークプロセスの数を定義できます。", "answer":"correct"},
+        {"label":"C", "text":"C. バックグラウンドワークプロセスをダイアログワークプロセスに切り替えることができます。", "answer":"correct"},
+        {"label":"D", "text":"D. スプールワークプロセスをダイアログワークプロセスに切り替えることができます。", "answer":"incorrect"}
+    ]
+  },
+  "163":{
+    "quiz":"SAPDOCCD.iniを使用すると、オンライン文書へのアクセス方法を変更するためのいくつかのオプションがあります。次の説明のうち正しいものはどれですか？この質問には3つの正解があります。",
+    "option":[
+        {"label":"A", "text":"A. ヘルプを呼び出すユーザのユーザID（SAPシステム内）に応じて、オンライン文書へのアクセスパスを変更することができます。", "answer":"incorrect"},
+        {"label":"B", "text":"B. ヘルプを呼び出すユーザの（SAPシステムの）ログオン言語に応じて、オンライン文書へのアクセスパスを変更することができます。", "answer":"correct"},
+        {"label":"C", "text":"C. ヘルプの呼び出し元のSAPシステムのリリースに応じて、オンライン文書へのアクセスパスを変更することができます。", "answer":"correct"},
+        {"label":"D", "text":"D. ヘルプの呼び出し元のSAPシステムのSID（システムID）に応じて、オンライン文書へのアクセスパスを変更することができます。", "answer":"correct"}
+    ]
+  },
+  "164":{
+    "quiz":"ABAPベースのSAPシステム（SAP ECCなど）のクライアントコンセプトとクライアントコピーツールに関する次の説明のうち、正しいものはどれですか。（この質問には3つの正解があります）",
+    "option":[
+        {"label":"A", "text":"A. クライアントは単一のSAPシステム内でコピーできます。", "answer":"correct"},
+        {"label":"B", "text":"B. すべてのクライアント固有のカスタマイジングもコピーされる場合、アプリケーションデータは1つのクライアントから別のクライアントにのみコピーすることができます。", "answer":"correct"},
+        {"label":"C", "text":"C. ユーザーマスタレコードをクライアント間でコピーすることはできません。", "answer":"incorrect"},
+        {"label":"D", "text":"D. クライアントは同じリリースのSAPシステム間でコピーできます。", "answer":"correct"},
+        {"label":"E", "text":"E. クライアントに依存しないカスタマイジングは、常にクライアント間で自動的にコピーされます。", "answer":"incorrect"}
+    ]
+  },
+  "165":{
+    "quiz":"SAP WebDispatcherを使用しているときのASJavaの負荷分散に関して、正しい説明は次のうちどれですか。この質問には2つの正解があります。",
+    "option":[
+        {"label":"A", "text":"A. Visual Administratorは、ASJavaのログオングループを定義するために使用できます。これらはSAPWebDispatcherによって考慮されます。", "answer":"incorrect"},
+        {"label":"B", "text":"B. トランザクションSMLGは、ASJavaおよびASABAPでのロードバランシングで考慮されます。", "answer":"incorrect"},
+        {"label":"C", "text":"C. AS Javaインスタンスのディスパッチャは、ローカルASJavaインスタンスのサーバープロセス間で負荷を分散します。", "answer":"correct"},
+        {"label":"D", "text":"D. SAP Web Dispatcherは、1つのASJavaベースのSAPシステムの異なるJavaインスタンス間で負荷を分散します", "answer":"correct"}
+    ]
+  },
+  "166":{
+    "quiz":"CUAで必要なRFC接続に関する次の説明のうち正しいものはどれですか？正解は３つ",
+    "option":[
+        {"label":"A", "text":"A. RFC接続は完全に大文字で指定する必要があり、アドレス指定された論理システムの名前と同一である必要があります。", "answer":"correct"},
+        {"label":"B", "text":"B. RFC接続のユーザーは、ダイアログユーザーである必要があります。", "answer":"incorrect"},
+        {"label":"C", "text":"C. 子システムからそれ自体へのRFC接続が必要です。", "answer":"incorrect"},
+        {"label":"D", "text":"D. 中央システムから「それ自体へ」のRFC接続が必要です。", "answer":"correct"},
+        {"label":"E", "text":"E. 通信ユーザーの特定の役割は、CUAのセットアップ中にのみ必要であり、関連するユーザーマスターレコードから削除できます。", "answer":"correct"}
+    ]
+  },
+  "167":{
+    "quiz":"AS ABAPベースのSAPシステムの出力デバイス定義の属性は次のうちどれですか？",
+    "option":[
+        {"label":"A", "text":"A. ローカルインターネットコミュニケーションマネージャー（ICM）", "answer":"incorrect"},
+        {"label":"B", "text":"B. 特定のスプール作業プロセス", "answer":"incorrect"},
+        {"label":"C", "text":"C. ログオンクライアント", "answer":"incorrect"},
+        {"label":"D", "text":"D. 論理スプールサーバーまたは物理スプールサーバーのいずれか", "answer":"correct"}
+    ]
+  },
+  "168":{
+    "quiz":"AS ABAPベースのSAPシステムの操作モード切り替えの目的となる可能性があるのは次のうちどれですか？",
+    "option":[
+        {"label":"A", "text":"A. システムがトランザクションRZ20で監視されている場合、SAPシステムの監視動作を変更するには", "answer":"correct"},
+        {"label":"B", "text":"B. SAPシステムをメンテナンスモードに切り替えるには", "answer":"incorrect"},
+        {"label":"C", "text":"C. データベースをローカルインスタンスバッファと同期する", "answer":"incorrect"},
+        {"label":"D", "text":"D. ワークプロセスを再起動して共有メモリ領域のリセットを強制する", "answer":"incorrect"}
+    ]
+  },
+  "169":{
+    "quiz":"SAPECCシステムをインストールしたいとします。 次のコンポーネントのうち、個別のインストール手順でインストールできるのはどれですか？この質問には2つの正解があります。",
+    "option":[
+        {"label":"A", "text":"A. The central instance", "answer":"correct"},
+        {"label":"B", "text":"B. The database instance", "answer":"correct"},
+        {"label":"C", "text":"C. An Internet Communication Manager", "answer":"incorrect"},
+        {"label":"D", "text":"D. The standalone message server", "answer":"incorrect"}
+    ]
+  },
+  "170":{
+    "quiz":"どのステートメントが正しいですか？この質問には2つの正解があります。",
+    "option":[
+        {"label":"A", "text":"A. Real Application Clustersは、シングルインスタンスのOracleデータベースで利用できるすべてのOracleバックアップおよびアーカイブ機能もサポートしています。", "answer":"correct"},
+        {"label":"B", "text":"B. SAPは、クラスタファイルシステムを備えたシステムでのみRACをサポートします。", "answer":"incorrect"},
+        {"label":"C", "text":"C. Oracle Real Application Clustersへの移行は、データのアンロードとロードが必要な場合は比較的簡単です。", "answer":"incorrect"},
+        {"label":"D", "text":"D.標準のクラスターソリューションでは、アクティブなデータベースインスタンスを1つだけ効果的に使用しますが、RACでは複数のインスタンスを同時に使用できます。", "answer":"correct"}
+    ]
+  },
+  "171":{
     "quiz":"",
     "option":[
         {"label":"A", "text":"", "answer":"incorrect"},
