@@ -1664,6 +1664,99 @@
     ]
   },
   "181":{
+    "quiz":"SAP WebディスパッチャのWeb管理インターフェイスを使用して実行できるアクティビティは次のうちどれですか？正解をお選びください。",
+    "option":[
+        {"label":"A", "text":"A. SAP WebDispatcherをアップグレードします。", "answer":"incorrect"},
+        {"label":"B", "text":"B. SAP WebDispatcherをディレクトリサーバーに接続します。", "answer":"incorrect"},
+        {"label":"C", "text":"C. SAP WebDispatcherをインストールします。", "answer":"incorrect"},
+        {"label":"D", "text":"D. SAP WebDispatcherのパラメータ設定を表示します。", "answer":"correct"}
+    ]
+  },
+  "182":{
+    "quiz":"トランザクションSPAM（サポートパッケージマネージャ）を使用してABAPサポートパッケージを適用する必要があります。 何を考慮する必要がありますか？この質問には2つの正解があります。",
+    "option":[
+        {"label":"A", "text":"A. 個別のサポートパッケージは、さまざまなABAPソフトウェアコンポーネント用に存在します。", "answer":"correct"},
+        {"label":"B", "text":"B. ABAPソフトウェアコンポーネントごとに利用可能な最新のサポートパッケージのみを適用するだけで十分です。", "answer":"incorrect"},
+        {"label":"C", "text":"C. サポートパッケージを適用する前に、SPAM / SAINTアップデートを適用する必要がある場合があります", "answer":"correct"},
+        {"label":"D", "text":"D. クライアントごとに個別にサポートパッケージを適用する必要があります。", "answer":"incorrect"},
+        {"label":"E", "text":"E. SAP_BASISサポートパッケージの適用中、カーネルの更新のためにシステムを再起動する必要があります。", "answer":"incorrect"}
+    ]
+  },
+  "183":{
+    "quiz":"ASABAPに中央ユーザ管理（CUA）を設定しました。 中央システムから子システムにどのようなユーザー関連データを配布できますか？この質問には3つの正解があります。",
+    "option":[
+        {"label":"A", "text":"A. ユーザーマスターが記録する情報は、どの子システムに存在する必要がありますか", "answer":"correct"},
+        {"label":"B", "text":"B. 役割の割り当て", "answer":"correct"},
+        {"label":"C", "text":"C. SAP EasyAccessのお気に入り", "answer":"incorrect"},
+        {"label":"D", "text":"D. 役割の定義", "answer":"incorrect"},
+        {"label":"E", "text":"E. 初期パスワード", "answer":"correct"}
+    ]
+  },
+  "184":{
+    "quiz":"次のアクティビティのうち、JControlによって実行されるのはどれですか？この質問には3つの正解があります。",
+    "option":[
+        {"label":"A", "text":"A. AS ABAP + Java（デュアルスタック）システムの場合：ABAPディスパッチャを起動します。", "answer":"incorrect"},
+        {"label":"B", "text":"B. JLaunchプロセスとして1つ以上のサーバープロセスを開始します。", "answer":"correct"},
+        {"label":"C", "text":"C. バイナリを同期します。", "answer":"correct"},
+        {"label":"D", "text":"D. Javaメッセージサービスを開始します。", "answer":"incorrect"},
+        {"label":"E", "text":"E. セントラルサービスインスタンスに接続します。", "answer":"correct"}
+    ]
+  },
+  "185":{
+    "quiz":"SAP GRCソリューションは、機能の3つの主要な領域で構成されています。３つ選択",
+    "option":[
+        {"label":"A", "text":"A. Avoid", "answer":"incorrect"},
+        {"label":"B", "text":"B. Analyze", "answer":"correct"},
+        {"label":"C", "text":"C. Monitor", "answer":"correct"},
+        {"label":"D", "text":"D. Manage", "answer":"correct"}
+    ]
+  },
+  "186":{
+    "quiz":"パスワードをインタラクティブに入力したり、コマンドラインに表示したりする必要がないように、BRToolsは通常OPSユーザーを使用してデータベースに接続します。",
+    "option":[
+        {"label":"A", "text":"いいえ", "answer":"correct"},
+        {"label":"B", "text":"はい", "answer":"incorrect"}
+    ]
+  },
+  "187":{
+    "quiz":"OracleデータベースインスタンスはMOUNTモードで実行されています。 データベース管理者はどのタスクを実行できますか？この質問には2つの正解があります。",
+    "option":[
+        {"label":"A", "text":"A. メディアリカバリを実行します。", "answer":"correct"},
+        {"label":"B", "text":"B. 表領域SYSTEMのOracleDBA_ *ビューにアクセスします。", "answer":"incorrect"},
+        {"label":"C", "text":"C. 欠落している制御ファイルを再作成します。", "answer":"incorrect"},
+        {"label":"D", "text":"D. データベースのARCHIVELOGモードを変更します。", "answer":"correct"}
+    ]
+  },
+  "188":{
+    "quiz":"AS ABAPベースのSAPシステムでCentralUser Administration（CUA）のRFC接続を設定する際、次の命名規則のどれを遵守する必要がありますか？（この質問には2つの正解があります）",
+    "option":[
+        {"label":"A", "text":"A. 必要なRFC接続には、接続先の論理システムと同じ名前を付ける必要があります。", "answer":"correct"},
+        {"label":"B", "text":"B. 必要なRFC接続は、大文字で指定する必要があります。", "answer":"correct"},
+        {"label":"C", "text":"C. CUAのRFC接続に使用されるユーザは、権限SAP_ALLを持つタイプ \"SYSTEM\"である必要があります。", "answer":"incorrect"},
+        {"label":"D", "text":"D. RFC接続と論理システム名の両方についてSAPが推奨する命名規則は、「CUA_」、たとえばCUA_DEVです。", "answer":"incorrect"},
+        {"label":"E", "text":"E. CUA環境をセットアップするには、信頼できるRFC接続を使用する必要があります。", "answer":"incorrect"}
+    ]
+  },
+  "189":{
+    "quiz":"承認はどのようにユーザーに割り当てられますか？正しい答えを２つ選択してください。",
+    "option":[
+        {"label":"A", "text":"A. ユーザーには、プロファイルを使用して承認が割り当てられます。", "answer":"correct"},
+        {"label":"B", "text":"B. ユーザーには、ロールを使用して承認が割り当てられます。", "answer":"correct"},
+        {"label":"C", "text":"C. ユーザーには、ユーザー名を使用して権限が割り当てられます。", "answer":"incorrect"},
+        {"label":"D", "text":"D. ユーザーには、認証局（CA）を使用して承認が割り当てられます。", "answer":"incorrect"}
+    ]
+  },
+  "190":{
+    "quiz":"LDAPを介して、ASABAPベースのSAPシステムのユーザー管理とDirectoryServerの間の接続を確立する必要があります。 SAPシステムで実行する必要がある構成手順は次のうちどれですか？この質問には3つの正解があります。",
+    "option":[
+        {"label":"A", "text":"A. トランザクションLDAP（Directory Service Connection）で、Directory Serverのホスト名、ポート番号、および製品名を更新します。", "answer":"correct"},
+        {"label":"B", "text":"B. トランザクションLDAP（Directory Service Connection）で、SAPシステムにログオン資格情報（ユーザーとパスワード）を提供します。これは、DirectoryServerへのログオンに使用されます。", "answer":"correct"},
+        {"label":"C", "text":"C. トランザクションSM59（RFC接続の設定）で、SAPシステムからLDAPコネクタへのタイプ \"T\"のRFC接続を登録します。", "answer":"correct"},
+        {"label":"D", "text":"D. トランザクションSICF（サービスの保守）で、SAPシステムとディレクトリサーバー間の通信に使用されるICFサービスを有効化します。", "answer":"incorrect"},
+        {"label":"E", "text":"E. トランザクションSU01（ユーザーメンテナンス）で、ディレクトリサーバーがSAPシステムに接続するために使用するSAPユーザー（タイプ \"システム\"）を作成します。", "answer":"incorrect"}
+    ]
+  },
+  "191":{
     "quiz":"",
     "option":[
         {"label":"A", "text":"", "answer":"incorrect"},
