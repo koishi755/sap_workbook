@@ -1757,6 +1757,100 @@
     ]
   },
   "191":{
+    "quiz":"AS ABAPシステムにはどのワークプロセスタイプがありますか？ （複数の答えが当てはまります）",
+    "option":[
+        {"label":"A", "text":"A. ワークプロセスを更新します", "answer":"correct"},
+        {"label":"B", "text":"B. ワークプロセスをキューに入れる", "answer":"correct"},
+        {"label":"C", "text":"C. バックグラウンドワークプロセス", "answer":"correct"},
+        {"label":"D", "text":"D. メッセージサーバー", "answer":"incorrect"},
+        {"label":"E", "text":"E. ダイアログワークプロセス", "answer":"correct"},
+        {"label":"F", "text":"F. スプール作業プロセス", "answer":"correct"},
+        {"label":"G", "text":"G. インターネットコミュニケーションマネージャー（ICM）", "answer":"incorrect"}
+    ]
+  },
+  "192":{
+    "quiz":"AS JavaベースのSAPシステムのJava仮想マシンのメモリ設定を維持するためにどのツールを使用しますか？",
+    "option":[
+        {"label":"A", "text":"A. SAP NetWeaver Administrator（NWA）", "answer":"incorrect"},
+        {"label":"B", "text":"B. シェルコンソール管理者", "answer":"incorrect"},
+        {"label":"C", "text":"C. ビジュアルアドミニストレーター", "answer":"incorrect"},
+        {"label":"D", "text":"D. 構成ツール", "answer":"correct"}
+    ]
+  },
+  "193":{
+    "quiz":"ジョブにはどのようなステータスがありますか？",
+    "option":[
+        {"label":"A", "text":"A. Running", "answer":"incorrect"},
+        {"label":"B", "text":"B. Released", "answer":"correct"},
+        {"label":"C", "text":"C. Waiting", "answer":"incorrect"},
+        {"label":"D", "text":"D. Finished", "answer":"correct"},
+        {"label":"E", "text":"E. Error", "answer":"incorrect"},
+        {"label":"F", "text":"F. Active", "answer":"correct"}
+    ]
+  },
+  "194":{
+    "quiz":"SAPのソフトウェア保守戦略を最もよく表すキャッチフレーズはどれですか？",
+    "option":[
+        {"label":"A", "text":"A. 「3-3-1メンテナンス」", "answer":"incorrect"},
+        {"label":"B", "text":"B. 「5-1-2メンテナンス」", "answer":"correct"},
+        {"label":"C", "text":"C. 「4-2-2メンテナンス」", "answer":"incorrect"}
+    ]
+  },
+  "195":{
+    "quiz":"次のうち、SAP NetWeaverを使用しないものはどれですか？",
+    "option":[
+        {"label":"A", "text":"A. SAP ERP", "answer":"incorrect"},
+        {"label":"B", "text":"B. SAPビジネスオールインワン", "answer":"incorrect"},
+        {"label":"C", "text":"C. SAP CRM", "answer":"incorrect"},
+        {"label":"D", "text":"D. SAP Business One", "answer":"correct"}
+    ]
+  },
+  "196":{
+    "quiz":"ガバナンス、リスク、コンプライアンスのプログラムを活用してパフォーマンスを最適化するにはどうすればよいですか？正解は３つ",
+    "option":[
+        {"label":"A", "text":"A. あなたのビジネスを知っている", "answer":"correct"},
+        {"label":"B", "text":"B. ビジネス関連のリスクを知る", "answer":"correct"},
+        {"label":"C", "text":"C. コンプライアンスとポリシーの要件を知る", "answer":"correct"},
+        {"label":"D", "text":"D. あなたの会社が訴訟のためにどのような準備金を持っているかを知る", "answer":"incorrect"}
+    ]
+  },
+  "197":{
+    "quiz":"AS ABAPとディレクトリサーバ間でデータを同期する前に、どのステップを実行する必要がありますか？この質問には3つの正解があります。",
+    "option":[
+        {"label":"A", "text":"A. ディレクトリサーバーを指すタイプ「S」のRFC宛先の作成", "answer":"incorrect"},
+        {"label":"B", "text":"B. ディレクトリサーバーがSAPシステムに接続するために使用するSAPユーザー（タイプ「システム」）の作成", "answer":"correct"},
+        {"label":"C", "text":"C. LDAPコネクタへのタイプ「T」のRFC接続の作成", "answer":"incorrect"},
+        {"label":"D", "text":"D. SAPシステム内のディレクトリサーバーのホスト名、ポート番号、および製品名の更新", "answer":"correct"},
+        {"label":"E", "text":"E. SAPシステムがディレクトリサーバーにログオンするために使用するシステムユーザーの定義", "answer":"correct"}
+    ]
+  },
+  "198":{
+    "quiz":"SAP NetWeaver AS Javaのコンテキストでロードバランシングを許可するソフトウェアコンポーネントはどれですか？正しい答えを選択してください。",
+    "option":[
+        {"label":"A", "text":"A. SAP Web Dispatcher", "answer":"correct"},
+        {"label":"B", "text":"B. ABAP Dispatcher", "answer":"incorrect"},
+        {"label":"C", "text":"C. Server processes", "answer":"incorrect"}
+    ]
+  },
+  "199":{
+    "quiz":"SAPは次のことを推奨しています。正しい答えを３つ選択してください。",
+    "option":[
+        {"label":"A", "text":"A. プロジェクトマネージャーまたは移送の責任者（限られた数のユーザー）が移送依頼を作成しています", "answer":"correct"},
+        {"label":"B", "text":"B. プロジェクトメンバーは、常に自分で移送依頼を作成する必要があります", "answer":"incorrect"},
+        {"label":"C", "text":"C. プロジェクトメンバーは、移送依頼内の各プロジェクトメンバーのタスクを登録することにより、移送依頼に割り当てられます。", "answer":"correct"},
+        {"label":"D", "text":"D. プロジェクトメンバーは、自分のタスクの変更を記録しています（プロジェクトマネージャーまたは移送依頼の責任者によって割り当てられます）", "answer":"correct"}
+    ]
+  },
+  "200":{
+    "quiz":"Software Update Manager（SUM）を使用して、SAPサポートパッケージをASABAPベースのSAPシステムに適用します。設定を使用する代わりに、メイン構成設定「単一システム」を使用する利点は何ですか",
+    "option":[
+        {"label":"A", "text":"A. ダウンタイムは短くなります。", "answer":"incorrect"},
+        {"label":"B", "text":"B. 更新プロセスの全体的な実行時間が短くなります。", "answer":"correct"},
+        {"label":"C", "text":"C. シャドウインスタンスは、プライマリアプリケーションサーバー（PAS）と同じホストにインストールされます。", "answer":"incorrect"},
+        {"label":"D", "text":"D. ABAPロードの生成はシャドウリポジトリで実行されます。", "answer":"incorrect"}
+    ]
+  },
+  "201":{
     "quiz":"",
     "option":[
         {"label":"A", "text":"", "answer":"incorrect"},
