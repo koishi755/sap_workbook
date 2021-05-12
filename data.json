@@ -1575,6 +1575,95 @@
     ]
   },
   "171":{
+    "quiz":"SAP NetWeaver AS Java 7.0の現在のパッチレベルをどのように判断できますか？",
+    "option":[
+        {"label":"A", "text":"A. オペレーティングシステムレベルでは、「java-version」を使用します。", "answer":"incorrect"},
+        {"label":"B", "text":"B. SAP NetWeaver ASJavaのセントラルサービスインスタンスからの作業ディレクトリ内のファイルjava_vers内。", "answer":"incorrect"},
+        {"label":"C", "text":"C. SAP NetWeaver AS Javaのシステム情報アプリケーション（別名：/ sap / monitoring / SystemInfo）を使用する。", "answer":"correct"}
+    ]
+  },
+  "172":{
+    "quiz":"SAPのソフトウェア保守戦略を最もよく表すキャッチフレーズはどれですか？",
+    "option":[
+        {"label":"A", "text":"A. 「4-2-2メンテナンス」", "answer":"incorrect"},
+        {"label":"B", "text":"B. 「5-1-2メンテナンス」", "answer":"correct"},
+        {"label":"C", "text":"C. 「3-3-1メンテナンス」", "answer":"incorrect"}
+    ]
+  },
+  "173":{
+    "quiz":"どの典型的なアクセステクノロジーがSAPERP（SAP ECCを使用）を使用しますか？ 正解を1つ選択してください",
+    "option":[
+        {"label":"A", "text":"A. SAP GUI for Windows（GUI =グラフィカルユーザーインターフェイス）", "answer":"correct"},
+        {"label":"B", "text":"B. ブラウザーベースのインターフェイス（さまざまなブラウザーが可能）BExアナライザー（さらにフロントエンドにExcelが必要）", "answer":"incorrect"},
+        {"label":"C", "text":"C. SAPNetWeaverビジネスクライアント", "answer":"incorrect"},
+        {"label":"D", "text":"D. ブラウザベースのインターフェイス（さまざまなブラウザが可能）", "answer":"incorrect"}
+    ]
+  },
+  "174":{
+    "quiz":"トランザクションSTMS（移送管理システム）を使用して、複数の移送依頼をASABAPベースのSAPシステムにインポートする必要があります。 いずれかのSAPシステムのインポートキューに、[リクエストのインポート]（単一のインポート）ボタンが表示されますが、[すべてのリクエストのインポート]（すべてのインポート）ボタンがありません。理由は何でしょうか？",
+    "option":[
+        {"label":"A", "text":"A. 「すべてのリクエストをインポート」ボタンは開発システムでは使用できません。", "answer":"incorrect"},
+        {"label":"B", "text":"B. 「キュー制御トランスポート、単一トランスポート」戦略が設定されています。", "answer":"correct"},
+        {"label":"C", "text":"C. 「すべてのリクエストのインポート」の権限がそれぞれのSAPシステムにありません。", "answer":"incorrect"},
+        {"label":"D", "text":"D. クライアント固有のトランスポートルートが構成されています。", "answer":"incorrect"}
+    ]
+  },
+  "175":{
+    "quiz":"Oracleデータベースを備えたSAPシステムに当てはまるのは次のうちどれですか？ ORACLE_HOMEは...正解をお選びください。",
+    "option":[
+        {"label":"A", "text":"A. ... Oracleデータベースサーバーと各SAPで定義されたシステム環境変数", "answer":"incorrect"},
+        {"label":"B", "text":"B. アプリケーションサーバー。", "answer":"incorrect"},
+        {"label":"C", "text":"C. ... Oracleデータベースサーバーでのみ定義されているユーザー環境変数。", "answer":"incorrect"},
+        {"label":"D", "text":"D. ... Oracleデータベースサーバーでのみ定義されているシステム環境変数。", "answer":"incorrect"},
+        {"label":"E", "text":"E. ... Oracleデータベースサーバーと各SAPアプリケーションサーバーで定義されたユーザー環境変数。", "answer":"correct"}
+    ]
+  },
+  "176":{
+    "quiz":"SAP ECCのインストール後のアクティビティに関する次の説明のうち、正しいものはどれですか。この質問には3つの正解があります。",
+    "option":[
+        {"label":"A", "text":"A. ASJavaアドインのインストールを実行する必要があります。", "answer":"incorrect"},
+        {"label":"B", "text":"B. トランザクションSGEN（SAP Load Generator）を使用してプログラム、汎用モジュール、およびクラスのABAPロードを生成するには、データベースに追加のスペースが必要です。", "answer":"correct"},
+        {"label":"C", "text":"C. トランスポート管理システム（TMS）を構成する必要があります。", "answer":"correct"},
+        {"label":"D", "text":"D. 最新のSAPサポートパッケージレベルは、SAPECCインストールメディアに含まれています。 インストール後に、SAP実行可能ファイル（カーネル）とデータベースのみに個別にパッチを適用する必要があります。", "answer":"incorrect"},
+        {"label":"E", "text":"E. SAPは、インストール後にクライアントコピープロファイルSAP_ALLを使用して最初のクライアントを作成することをお奨めします。 クライアントコピーのソースクライアントは、クライアント066である必要があります。", "answer":"incorrect"},
+        {"label":"F", "text":"F. インストールチェックは、インストールの完全性を検証します。", "answer":"correct"}
+    ]
+  },
+  "177":{
+    "quiz":"AS ABAP + Javaシステムの場合、SAP WebDispatcherは次のうちどれと通信しますか。",
+    "option":[
+        {"label":"A", "text":"A. ABAPとJavaメッセージサーバーの両方", "answer":"incorrect"},
+        {"label":"B", "text":"B. Javaメッセージサーバー", "answer":"incorrect"},
+        {"label":"C", "text":"C. ABAPメッセージサーバー", "answer":"correct"}
+    ]
+  },
+  "178":{
+    "quiz":"SMTPを使用したSAPシステムと外部メッセージ転送エージェント（MTA）間の通信に関する次の説明のうち正しいものはどれですか。この質問には2つの正解があります。",
+    "option":[
+        {"label":"A", "text":"A. MTAに電子メールを送信したり、SMTPを使用してMTAから電子メールを受信したりするには、SAP NetWeaver AS ABAPにST-MAILプラグインが必要です。これは、トランザクションSAINTを使用してインストールする必要があります。", "answer":"incorrect"},
+        {"label":"B", "text":"B. SAP NetWeaver AS ABAPは、メッセージ転送エージェント（MTA）の全機能を提供します。", "answer":"incorrect"},
+        {"label":"C", "text":"C. SAP NetWeaver AS ABAPは、SAPクライアントごとに1つの特定のMTAにのみメールを送信できます。", "answer":"correct"},
+        {"label":"D", "text":"D. SAP NetWeaver AS ABAPは、受信メールを他のドメインに自動的に転送することはできません。", "answer":"correct"}
+    ]
+  },
+  "179":{
+    "quiz":"ビジネスでは、AS ABAPベースのSAPシステム（ソースシステム）の1つのクライアント（ソースクライアント）と、2番目のAS ABAPベースのSAPシステム（ターゲットシステム）の3つの異なるクライアント（ターゲットクライアント）間のデータ同期が必要です。RFCテクノロジを使用してこの要件をどのように実装しますか？正解をお選びください。",
+    "option":[
+        {"label":"A", "text":"A. ターゲットシステムのソースクライアントへの3つのRFC接続を定義します。", "answer":"incorrect"},
+        {"label":"B", "text":"B. ソースシステムのターゲットシステムへのタイプ \"M\"（複数のターゲット）の1つのブロードキャストRFC接続を定義します。", "answer":"incorrect"},
+        {"label":"C", "text":"C. ソースシステムのターゲットクライアントへの3つのRFC接続を定義します。", "answer":"correct"},
+        {"label":"D", "text":"D. ターゲットシステムの3つのクライアント間のRFC接続を定義します。", "answer":"incorrect"}
+    ]
+  },
+  "180":{
+    "quiz":"SAP ECC 6.0システムのインストール中に、次のコンポーネントのどれを個別のインストール手順でインストールできますか？この質問には2つの正解があります。",
+    "option":[
+        {"label":"A", "text":"A. The central instance", "answer":"correct"},
+        {"label":"B", "text":"B. The database instance", "answer":"correct"},
+        {"label":"C", "text":"C. The message server", "answer":"incorrect"}
+    ]
+  },
+  "181":{
     "quiz":"",
     "option":[
         {"label":"A", "text":"", "answer":"incorrect"},
