@@ -63,7 +63,7 @@ function start_quiz(start, array_count){
     let end = element.dataset.end_quiz;
 
     // htmlに記載する内容を定義
-    let add = `<input type="button" title="test" value="次の問題" id="next" data-end_quiz=${end} onClick="next()" /><input type="button" value="答え" onClick="check_the_answer()"/>`;
+    let add = `<input type="button" title="test" value="次の問題" id="next" data-end_quiz=${end} onClick="next()" /><input id="answer" type="button" value="答え" onClick="check_the_answer()"/>`;
 
     // startボタンを消して、次の問題ボタン、答えボタンを追加
     document
@@ -97,6 +97,9 @@ function check_the_answer(){
             choice.classList.add("red");
         }
     }
+    
+    get_answer(count)
+  
 }
 
 // 次の問題ボタン
@@ -183,6 +186,35 @@ function get_data(count){
 
 function del() {
     document.getElementById("container").remove();
+    document.getElementById("description").remove();
 }
 
+function get_answer(count){
+    let option_array = [];
+    let label_array = [];
+
+    // json読み込み
+    $.ajax({url:url, dataType:'json'})
+    //jsonが読み込まれた時の処理
+    .done(function(json_data){
+
+        // ボタンを押した回数を文字列に変換
+        let count_str = String(count);
+        
+        // jsonからボタンを押した回数の部分のデータを読み込み
+        json_data[count_str].option.forEach(function(item){
+            // チェックボックスとラベルを読み込んデータから作成
+            option_array.push(`<input type="checkbox" name="option" id="${item.label}" data-answer=${item.answer}>`);
+            label_array.push(`<label for="${item.label}" name="label" data-answer="${item.answer}">${item.text}</label>`);
+        });
+        // 解説文を取り込み
+        let description_text = `<p>${count_str}. ${json_data[count_str].description}</p>`;
+        document.getElementById("answer").insertAdjacentHTML("afterend", `<div id="description"> <p>解説</p> ${description_text}</div>`);
+      
+    })
+    //jsonの読み込みに失敗した時の処理
+    .fail(function(){
+        window.alert('JSON読み込みエラー');
+    }); 
+}
 
