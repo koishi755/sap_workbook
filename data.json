@@ -1851,13 +1851,99 @@
     ]
   },
   "201":{
-    "quiz":"",
+    "quiz":"ASJavaベースのSAPシステムをインストールしました。 システムの技術的処理または技術的シナリオに必要な技術的設定を行うツールはどれですか？",
     "option":[
-        {"label":"A", "text":"", "answer":"incorrect"},
-        {"label":"B", "text":"", "answer":"incorrect"},
-        {"label":"C", "text":"", "answer":"incorrect"},
-        {"label":"D", "text":"", "answer":"incorrect"},
-        {"label":"E", "text":"", "answer":"incorrect"}
+        {"label":"A", "text":"A. テンプレートウィザード", "answer":"incorrect"},
+        {"label":"B", "text":"B. 構成ウィザード", "answer":"correct"},
+        {"label":"C", "text":"C. ポストインストーラー", "answer":"incorrect"},
+        {"label":"D", "text":"D. 構成テンプレートインストーラー", "answer":"incorrect"}
+    ]
+  },
+  "202":{
+    "quiz":"Oracleデータベースリリース10gは、テーブルとインデックスに新しいデータベース統計機能を使用できます。 CBO（コストベースのオプティマイザー）とRBO（ルールベースのオプティマイザー）に関する説明として正しいものはどれですか。この質問には3つの正解があります。",
+    "option":[
+        {"label":"A", "text":"A. Oracle 10gでは、CBOベースとRBOベースの両方のインデックス統計を同時に使用できます。", "answer":"incorrect"},
+        {"label":"B", "text":"B. データベース統計はOracle10gで自動的に管理できます。 これは、dbms_schedulerジョブGATHER_STATS_JOBとしてデータベースに実装されます。 ただし、このメソッドはまだサポートされておらず、brconnectメソッドとの競合を回避するために非アクティブ化されています。", "answer":"correct"},
+        {"label":"C", "text":"C. Oracle 10gはCBOのみをサポートしますが、RBOはサポートされなくなりました。", "answer":"correct"},
+        {"label":"D", "text":"D. Oracle 10g以降、Oracleディクショナリの統計も作成する必要があります。", "answer":"correct"}
+    ]
+  },
+  "203":{
+    "quiz":"Computing Center Management System（CCMS）ベースのシステム監視でプロパティバリアントを使用する利点は何ですか？この質問には2つの正解があります。",
+    "option":[
+        {"label":"A", "text":"A. ASABAPベースのSAPシステム間でモニタ定義を移送することができます。", "answer":"incorrect"},
+        {"label":"B", "text":"B. ASABAPベースのSAPシステム間でしきい値設定を移送することができます。", "answer":"correct"},
+        {"label":"C", "text":"C. ASABAPベースのSAPシステムでカスタマ定義のモニタ定義を登録することができます。", "answer":"incorrect"},
+        {"label":"D", "text":"D. AS ABAPベースのSAPシステムの動作モードに応じて、しきい値のセットを切り替えることができます。", "answer":"correct"}
+    ]
+  },
+  "204":{
+    "quiz":"統合ITSをアクティブ化するにはどの設定が必要ですか？",
+    "option":[
+        {"label":"A", "text":"A. プロファイルパラメータrdisp / optimize_web_appを1に設定します。", "answer":"incorrect"},
+        {"label":"B", "text":"B. プロファイルパラメータitsp / enableを1に設定します。", "answer":"correct"},
+        {"label":"C", "text":"C. SAP NetWeaver ASJavaのHTMLキャッシュを構成します。", "answer":"incorrect"},
+        {"label":"D", "text":"D. オペレーティングシステムレベルで必要なHTMLテンプレートを展開する必要があります。", "answer":"incorrect"}
+    ]
+  },
+  "205":{
+    "quiz":"メンテナンストランザクションで何ができますか？正解は２つ",
+    "option":[
+        {"label":"A", "text":"A. サポートパッケージをインポートします。", "answer":"incorrect"},
+        {"label":"B", "text":"B. SAPシステムのサポートパッケージスタックを計算します。", "answer":"correct"},
+        {"label":"C", "text":"C. ダウンロードバスケット内のオブジェクトを承認します。", "answer":"correct"},
+        {"label":"D", "text":"D. SAPノートをインポートします。", "answer":"incorrect"},
+        {"label":"E", "text":"E. SAP拡張パッケージをインポートする", "answer":"incorrect"}
+    ]
+  },
+  "206":{
+    "quiz":"ASABAPベースのSAPシステムのシステムランドスケープを実行しています。 インポートする移送依頼を選択するためのオプションはどれですか？この質問には3つの正解があります。",
+    "option":[
+        {"label":"A", "text":"A. インポートする単一の移送依頼を選択することができます。", "answer":"correct"},
+        {"label":"B", "text":"B. 特定のプロジェクトの移送依頼をフィルタリングし、それらを1つのステップで一緒にインポートすることができます（トランザクションSPRO_ADMIN [カスタマイズ：プロジェクト管理]でCTS機能を有効化した場合）。", "answer":"correct"},
+        {"label":"C", "text":"C. 1つのステップでインポートする複数の個別移送依頼を選択することができます。", "answer":"correct"},
+        {"label":"D", "text":"D. 単一の移送依頼を選択して、1つのステップで複数のSAPシステムにインポートすることができます。", "answer":"incorrect"},
+        {"label":"E", "text":"E. 選択したパッケージのオブジェクトを含むインポート用のすべての移送依頼を選択することができます。", "answer":"incorrect"}
+    ]
+  },
+  "207":{
+    "quiz":"AS ABAPベースのSAPシステムで特定のプロファイルパラメータを使用することにより、どのようなシステム動作を実現できますか？この質問には2つの正解があります。",
+    "option":[
+        {"label":"A", "text":"A. 通常、SAPシステム全体（サンドボックスシステムなど）で権限チェックを無効化することができます。", "answer":"incorrect"},
+        {"label":"B", "text":"B. パスワードの最小の長さを設定できます。", "answer":"correct"},
+        {"label":"C", "text":"C. 「SAP_ALL」という名前の緊急「マスターユーザー」を有効にすることができます。", "answer":"incorrect"},
+        {"label":"D", "text":"D. パスワードの有効期限を設定できます。", "answer":"correct"}
+    ]
+  },
+  "208":{
+    "quiz":"SAP ECCシステムのインストール中にデフォルトでインストールされるABAPソフトウェアコンポーネントはどれですか？この質問には3つの正解があります。",
+    "option":[
+        {"label":"A", "text":"A. SAP_CRM", "answer":"incorrect"},
+        {"label":"B", "text":"B. SAP_HR", "answer":"correct"},
+        {"label":"C", "text":"C. SAP_BW", "answer":"correct"},
+        {"label":"D", "text":"D. SAP_ERP", "answer":"incorrect"},
+        {"label":"E", "text":"E. SAP_APPL", "answer":"correct"}
+    ]
+  },
+  "209":{
+    "quiz":"リストされた状態のうち、スプール依頼が持つことができるのはどれですか？正解４つ",
+    "option":[
+        {"label":"A", "text":"A. Complete", "answer":"correct"},
+        {"label":"B", "text":"B. Canceled", "answer":"incorrect"},
+        {"label":"C", "text":"C. Error", "answer":"correct"},
+        {"label":"D", "text":"D. Waiting", "answer":"correct"},
+        {"label":"E", "text":"E. Active", "answer":"incorrect"},
+        {"label":"F", "text":"F. Print.", "answer":"correct"}
+    ]
+  },
+  "210":{
+    "quiz":"AS ABAP + Java 7.0に基づくSAPシステムの開始と停止に関する次の説明のうち正しいものはどれですか？この質問には2つの正解があります。",
+    "option":[
+        {"label":"A", "text":"A. ABAPディスパッチャーは、インスタンスのJava部分の開始をトリガーします。", "answer":"correct"},
+        {"label":"B", "text":"B. 1つのインスタンスのJavaディスパッチャとABAPディスパッチャは、それぞれの開発者トレースを同じディレクトリの異なるファイルに書き込みます。", "answer":"correct"},
+        {"label":"C", "text":"C. コマンドを使用する場合。 オペレーティングシステムレベルでの「stopsapJ2EEDVEBMGS00」、", "answer":"incorrect"},
+        {"label":"D", "text":"D. インスタンスのJava部分のみが停止します。", "answer":"incorrect"},
+        {"label":"E", "text":"E. SAP MCはJavaベースであるため、インスタンスのJava部分のみを開始および停止できます。", "answer":"incorrect"}
     ]
   }
 }
