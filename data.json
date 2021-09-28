@@ -7,7 +7,7 @@
         {"label":"C", "text":"C. ABAPユーザーのABAPグループへの割り当ては、UMEユーザーのUMEロールへの割り当てとして表示されます。", "answer":"incorrect"},
         {"label":"D", "text":"D.ABAP許可プロファイルはUMEセキュリティロールとして表示されます。", "answer":"incorrect"}
     ],
-    "description":"ユーザマネジメントエンジン (UME) <br>"
+    "description":"ユーザマネジメントエンジン (UME) <br>すべての Java アプリケーションに集中ユーザマネジメントを提供し、複数のデータソースからユーザマネジメントデータに対して作業するよう設定することができます<br>UME は、デフォルトユーザストアとして SAP NetWeaver Application Server (AS) Java にシームレスに統合され、AS Java の管理ツールを使用して管理することができます。"
   }
 ,
   "2":{
