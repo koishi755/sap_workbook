@@ -17,7 +17,8 @@
         {"label":"B", "text":"B.リモート関数呼び出し（RFC）を介したゲートウェイプロセス", "answer":"incorrect"},
         {"label":"C", "text":"C.JDBCを介したディスパッチャプロセス", "answer":"incorrect"},
         {"label":"D", "text":"D.すべてのワークプロセスがデータベースに接続します", "answer":"correct"}
-    ]
+    ],
+    "SAPのワークプロセス<br>■dialog work processes<br>システム内のすべての対話型処理に使用されます。<br><br>■background (batch) work processes<br>■update work processes<br>■enqueue (lock) work processes<br>■spool work processes<br>"
   }
 ,
   "3":{
