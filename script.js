@@ -189,7 +189,7 @@ function del() {
     let description = document.getElementById("description");
     if ( description === null ){
     }else{
-        description.getElementById("description").remove();
+        description.remove();
     }
 }
 
