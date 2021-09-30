@@ -186,7 +186,11 @@ function get_data(count){
 
 function del() {
     document.getElementById("container").remove();
-    document.getElementById("description").remove();
+    let description = document.getElementById("description");
+    if ( description === null ){
+    }else{
+        description.getElementById("description").remove();
+    }
 }
 
 function get_answer(count){
