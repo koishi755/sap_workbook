@@ -17,7 +17,8 @@
         {"label":"B", "text":"B.リモート関数呼び出し（RFC）を介したゲートウェイプロセス", "answer":"incorrect"},
         {"label":"C", "text":"C.JDBCを介したディスパッチャプロセス", "answer":"incorrect"},
         {"label":"D", "text":"D.すべてのワークプロセスがデータベースに接続します", "answer":"correct"}
-    ]
+    ],
+    "description":"<a href=https://help.sap.com/doc/saphelp_nw70/7.0.12/ja-JP/fc/eb2e7d358411d1829f0000e829fbfe/content.htm?no_cache=true target=_blank>SAP ワークプロセス</a>"
   }
 ,
   "3":{
@@ -48,7 +49,8 @@
         {"label":"C", "text":"C.ロックテーブルはSAPシステムにある透過テーブルであり、ABAPディクショナリを使用して内容を表示することができます。", "answer":"incorrect"},
         {"label":"D", "text":"D.別のインスタンスからのダイアログワークプロセスの場合（エンキューワークプロセスなし）", "answer":"correct"},
         {"label":"E", "text":"E.ロックを要求すると、ロック操作は中央インスタンスのエンキューワークプロセスによって実行されます。", "answer":"incorrect"}
-    ]
+    ],
+    "description":"<img src=https://help.sap.com/doc/saphelp_nw70ehp1/7.01.4/ja-JP/41/7af4cea79e11d1950f0000e82de14a/h-00100060000_image002.gif>"
   }
 ,
   "6":{
